@@ -1,0 +1,109 @@
+/* 
+Licensed to the Accounting Companion
+The Accounting Companion licenses this file to you under the MIT license.
+
+Any issues, create a issue at - 
+ 
+
+This TDL fixes inherit limitations of default ODBC
+all the collections/ODBC tables with AC_Prefix support multiple companies and custom period
+we also exposed child tables of voucher like ledgerentries,inventoryentries, billallocations
+this TDL exposes ODBC Tables with prefix AC_
+
+*/
+
+
+;; Base Table for All ODBC Tables
+
+[Collection: AC_BaseODBCTable]
+    Is ODBC Table : Yes
+    
+
+[Collection : AC_Companies]
+    Type    : Company
+    Is ODBC Table : Yes
+    Fetch : StartingFrom
+    Filters : IsSimpleCompanyFilter   
+
+
+[System:Formulae]
+    IsSimpleCompanyFilter : $$IsSimpleCompany:$Name
+
+
+[Collection : AC_BaseAllCompany]
+    Compute : CompanyGUID   :   $$LoopCollObj:$GUID
+    Compute : CompanyName   :   $$LoopCollObj:$Name
+
+
+[Collection : AC_LedgersSrc]
+    Use         :   AC_BaseAllCompany    
+    Type        :   Ledger
+    Compute     : Name : $Name
+    Fetch       :   *.*,Name
+
+[Collection : AC_Ledgers]
+    Use         :   AC_BaseODBCTable
+    Collection  :   AC_LedgersSrc : AC_Companies    
+   ;; Compute : BalanceofParticularPeriod;;$$FromValue:"01-04-2015":$$ToValue:"30-04-2015":$Closingbalance 
+
+[Collection : AC_GroupsSrc]
+    Use         :   AC_BaseAllCompany    
+    Type        :   Group
+    Fetch       :   *.*    
+
+[Collection : AC_Groups]
+    Use         :   AC_BaseODBCTable
+    Collection  :   AC_GroupsSrc : AC_Companies
+
+[Collection : AC_VchTypeSrc]
+    Use         :   AC_BaseAllCompany    
+    Type        :   VoucherType
+    
+    Fetch       :   ActualVoucherType,*.*    
+
+[Collection : AC_VchTypes]
+    Use         :   AC_BaseODBCTable
+    Collection  :   AC_VchTypeSrc : AC_Companies
+
+[#object : Company]
+    SVFROMDATE  : $StartingFrom
+    SVTODATE    : $$Max:@@DSPFromDate:@@EndingDate 
+
+[Collection : AC_Vouchers_src]   
+    Use         :   AC_BaseAllCompany    
+    Type        :   Voucher
+
+    
+    PARM VAR	: SVFROMDATE	: Date	: $$Date:"01-04-2010"
+	;;PARM VAR	: SVTODATE      : Date	: $$Date:"31-03-2026"
+    Compute : VoucherTypeGUID : $GUID:VoucherType:$VoucherTypeName
+    Fetch      :   *.* ,AllLedgerEntries
+    
+[Collection : AC_Vouchers]
+
+    Use         :   AC_BaseODBCTable
+    Collection  :   AC_Vouchers_src : AC_Companies
+
+
+[#object : LedgerEntry]
+    VoucherGUID:$.GUID
+    LedgerGUID : $GUID:Ledger:$LedgerName
+
+[Collection : AC_VoucherAllLedgerEntries]
+    Use             :   AC_BaseODBCTable
+    SourceCollection : AC_Vouchers
+    Walk    :   AllLedgerEntries
+    Fetch   : LedgerName,Amount,AdAllocType,VoucherGUID,LedgerGUID
+
+[Collection : AC_VoucherLedgerBillAllocations]
+    Use     :   AC_BaseODBCTable
+    SourceCollection : AC_Vouchers
+    Walk    :   AllLedgerEntries,BillAllocations
+    Fetch   : BillId,Name,BillType,Amount,BillCreditPeriod
+
+[Collection : AC_VoucherAllInventoryEntries]
+    Use     :   AC_BaseODBCTable
+    SourceCollection : AC_Vouchers
+    Walk    :   AllInventoryEntries
+    Fetch   : StockItemName,Amount,Rate,BilledQty,BilledRate,BatchName,ActualQty,ActualRate
+
