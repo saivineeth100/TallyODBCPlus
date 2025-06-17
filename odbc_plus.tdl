@@ -77,7 +77,7 @@ this TDL exposes ODBC Tables with prefix AC_
     PARM VAR	: SVFROMDATE	: Date	: $$Date:"01-04-2010"
 	;;PARM VAR	: SVTODATE      : Date	: $$Date:"31-03-2026"
     Compute : VoucherTypeGUID : $GUID:VoucherType:$VoucherTypeName
-    Fetch      :   *.* ,AllLedgerEntries
+    Fetch      :   *.* ,AllLedgerEntries,AllInventoryEntries
     
 [Collection : AC_Vouchers]
 
@@ -89,11 +89,16 @@ this TDL exposes ODBC Tables with prefix AC_
     VoucherGUID:$.GUID
     LedgerGUID : $GUID:Ledger:$LedgerName
 
+[#object : InventoryEntry]
+    VoucherGUID:$.GUID
+    StockItemGUID : $GUID:StockItem:$StockItemName
+
 [Collection : AC_VoucherAllLedgerEntries]
     Use             :   AC_BaseODBCTable
     SourceCollection : AC_Vouchers
     Walk    :   AllLedgerEntries
     Fetch   : LedgerName,Amount,AdAllocType,VoucherGUID,LedgerGUID
+ 
 
 [Collection : AC_VoucherLedgerBillAllocations]
     Use     :   AC_BaseODBCTable
@@ -105,5 +110,6 @@ this TDL exposes ODBC Tables with prefix AC_
     Use     :   AC_BaseODBCTable
     SourceCollection : AC_Vouchers
     Walk    :   AllInventoryEntries
-    Fetch   : StockItemName,Amount,Rate,BilledQty,BilledRate,BatchName,ActualQty,ActualRate
+    Fetch   : StockItemName,Amount,Rate,BilledQty,BilledRate,BatchName,ActualQty,ActualRate,VoucherGUID,StockItemGUID
+  
 
