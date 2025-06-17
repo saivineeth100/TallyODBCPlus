@@ -1,0 +1,722 @@
+table ledgers
+	lineageTag: bfa4fe55-a863-4422-8872-bea714fb16af
+
+	column $GUID
+		dataType: string
+		lineageTag: 542937c8-81a2-4e4c-9693-5c3fd39d81d6
+		summarizeBy: none
+		sourceColumn: $GUID
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CurrencyName
+		dataType: string
+		lineageTag: 735afdf6-975c-4b76-b578-eadb1ced3c5b
+		summarizeBy: none
+		sourceColumn: $CurrencyName
+
+		annotation SummarizationSetBy = Automatic
+
+	column $PriorStateName
+		dataType: string
+		lineageTag: 4da26171-8380-442e-b22d-0a76e1738c04
+		summarizeBy: none
+		sourceColumn: $PriorStateName
+
+		annotation SummarizationSetBy = Automatic
+
+	column $Parent
+		dataType: string
+		lineageTag: 99dae3bc-4252-4b06-bbc7-3a04f85266b5
+		summarizeBy: none
+		sourceColumn: $Parent
+
+		annotation SummarizationSetBy = Automatic
+
+	column $RemoteAltGUID
+		dataType: string
+		lineageTag: 6c8b0843-0a9e-4d3d-994b-61c32cc95a77
+		summarizeBy: none
+		sourceColumn: $RemoteAltGUID
+
+		annotation SummarizationSetBy = Automatic
+
+	column $TaxClassificationName
+		dataType: string
+		lineageTag: 807d72c3-1798-4384-839b-2e9a55e85b6c
+		summarizeBy: none
+		sourceColumn: $TaxClassificationName
+
+		annotation SummarizationSetBy = Automatic
+
+	column $TaxType
+		dataType: string
+		lineageTag: 68c9b2fa-5c29-4a92-8d69-5e36a20e83ae
+		summarizeBy: none
+		sourceColumn: $TaxType
+
+		annotation SummarizationSetBy = Automatic
+
+	column $GSTType
+		dataType: string
+		lineageTag: 29658628-ea09-43eb-ba4c-3907ec1f3538
+		summarizeBy: none
+		sourceColumn: $GSTType
+
+		annotation SummarizationSetBy = Automatic
+
+	column $AppropriateFor
+		dataType: string
+		lineageTag: fcee8b2a-2acb-41b4-9510-5a4fe0f0e6e2
+		summarizeBy: none
+		sourceColumn: $AppropriateFor
+
+		annotation SummarizationSetBy = Automatic
+
+	column $PayType
+		dataType: string
+		lineageTag: 85c6c428-03d2-49f8-a205-f81cd2584205
+		summarizeBy: none
+		sourceColumn: $PayType
+
+		annotation SummarizationSetBy = Automatic
+
+	column $PayStatType
+		dataType: string
+		lineageTag: 353533bf-1e98-4937-9e7c-b8a83f1f828c
+		summarizeBy: none
+		sourceColumn: $PayStatType
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ServiceCategory
+		dataType: string
+		lineageTag: 8df61ad1-96f8-41bc-8c5a-2b2c925afcca
+		summarizeBy: none
+		sourceColumn: $ServiceCategory
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ExciseDutyType
+		dataType: string
+		lineageTag: d6d4e940-729a-4d47-9a86-cbd2badc77c3
+		summarizeBy: none
+		sourceColumn: $ExciseDutyType
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ExciseNatureofPurchase
+		dataType: string
+		lineageTag: d77b990c-3aa4-400f-a783-d0fe7a0f6019
+		summarizeBy: none
+		sourceColumn: $ExciseNatureofPurchase
+
+		annotation SummarizationSetBy = Automatic
+
+	column $LedgerFBTCategory
+		dataType: string
+		lineageTag: 506d7e17-0202-4db7-a3e2-9bab881715f4
+		summarizeBy: none
+		sourceColumn: $LedgerFBTCategory
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CompanyName
+		dataType: string
+		lineageTag: 1aef601f-fa5d-4483-b9bc-462a24ec8b60
+		summarizeBy: none
+		sourceColumn: $CompanyName
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsBillWiseOn
+		dataType: string
+		lineageTag: 73cf5223-fdfe-42e6-8e5a-aec5c047c42d
+		summarizeBy: none
+		sourceColumn: $IsBillWiseOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsCostCentresOn
+		dataType: string
+		lineageTag: 2c8c615b-c722-4b9c-ae7d-757a2d87df5f
+		summarizeBy: none
+		sourceColumn: $IsCostCentresOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsInterestOn
+		dataType: string
+		lineageTag: 47a86d2b-91ad-4111-9e30-20a39c4f9050
+		summarizeBy: none
+		sourceColumn: $IsInterestOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $AllowinMobile
+		dataType: string
+		lineageTag: 5f8518af-e0d7-4f37-a764-2d0a76de2648
+		summarizeBy: none
+		sourceColumn: $AllowinMobile
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsCostTrackingOn
+		dataType: string
+		lineageTag: 52946d93-d69f-4288-96dd-435d7c0f893a
+		summarizeBy: none
+		sourceColumn: $IsCostTrackingOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsExportOnVchCreate
+		dataType: string
+		lineageTag: dced8cfd-0963-4180-a9ec-a7da2349b467
+		summarizeBy: none
+		sourceColumn: $IsExportOnVchCreate
+
+		annotation SummarizationSetBy = Automatic
+
+	column $PLasIncomeExpense
+		dataType: string
+		lineageTag: a8a886cc-0342-40b4-9ad6-2d540b629098
+		summarizeBy: none
+		sourceColumn: $PLasIncomeExpense
+
+		annotation SummarizationSetBy = Automatic
+
+	column $AsOriginal
+		dataType: string
+		lineageTag: b5349e43-41f2-4520-9a00-5c3e79f140a9
+		summarizeBy: none
+		sourceColumn: $AsOriginal
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsCondensed
+		dataType: string
+		lineageTag: fbffbd0d-2dc4-4f1f-a58a-c3825ac9bdec
+		summarizeBy: none
+		sourceColumn: $IsCondensed
+
+		annotation SummarizationSetBy = Automatic
+
+	column $AffectsStock
+		dataType: string
+		lineageTag: b57fe7ac-d550-4e81-b042-931fa7ba4405
+		summarizeBy: none
+		sourceColumn: $AffectsStock
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ForPayroll
+		dataType: string
+		lineageTag: 17d01d91-ff92-4d19-ad62-328257a0c500
+		summarizeBy: none
+		sourceColumn: $ForPayroll
+
+		annotation SummarizationSetBy = Automatic
+
+	column $InterestonBillwise
+		dataType: string
+		lineageTag: f51b3ad7-fbd4-45e5-ab9b-1e5db8c535d5
+		summarizeBy: none
+		sourceColumn: $InterestonBillwise
+
+		annotation SummarizationSetBy = Automatic
+
+	column $OverrideInterest
+		dataType: string
+		lineageTag: 128f2214-9809-44a6-bc34-30c7af9fdc31
+		summarizeBy: none
+		sourceColumn: $OverrideInterest
+
+		annotation SummarizationSetBy = Automatic
+
+	column $OverrideAdvInterest
+		dataType: string
+		lineageTag: b7397128-b6a5-4cf5-aee2-7a4bfdebda88
+		summarizeBy: none
+		sourceColumn: $OverrideAdvInterest
+
+		annotation SummarizationSetBy = Automatic
+
+	column $UseForVAT
+		dataType: string
+		lineageTag: 2b242dfb-f2db-40ed-b625-10a04876414c
+		summarizeBy: none
+		sourceColumn: $UseForVAT
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IgnoreTDSExempt
+		dataType: string
+		lineageTag: 1f7c372d-eec3-4e21-ada6-460c1e91d4de
+		summarizeBy: none
+		sourceColumn: $IgnoreTDSExempt
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsTCSApplicable
+		dataType: string
+		lineageTag: d7384111-07e5-4caf-accc-31db2cbd6092
+		summarizeBy: none
+		sourceColumn: $IsTCSApplicable
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsTDSApplicable
+		dataType: string
+		lineageTag: 4f8cd414-b6cf-4398-897d-94317ff6a3cb
+		summarizeBy: none
+		sourceColumn: $IsTDSApplicable
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsFBTApplicable
+		dataType: string
+		lineageTag: 38226aa6-2da8-473d-8108-6450f7091937
+		summarizeBy: none
+		sourceColumn: $IsFBTApplicable
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsGSTApplicable
+		dataType: string
+		lineageTag: 4d0f3a2c-0ddc-4f59-889f-ab5c5afac88c
+		summarizeBy: none
+		sourceColumn: $IsGSTApplicable
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsExciseApplicable
+		dataType: string
+		lineageTag: 32c817f0-88b5-428f-82c2-4130c43da145
+		summarizeBy: none
+		sourceColumn: $IsExciseApplicable
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsTDSExpense
+		dataType: string
+		lineageTag: 49e0c0bf-142f-4b96-bed5-ecdca7572ec2
+		summarizeBy: none
+		sourceColumn: $IsTDSExpense
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsEDLIApplicable
+		dataType: string
+		lineageTag: f4eaadc5-64d6-4f81-8c7e-f2cd3d6f94e8
+		summarizeBy: none
+		sourceColumn: $IsEDLIApplicable
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsRelatedParty
+		dataType: string
+		lineageTag: 8340db5d-101c-4830-afff-687f8177a878
+		summarizeBy: none
+		sourceColumn: $IsRelatedParty
+
+		annotation SummarizationSetBy = Automatic
+
+	column $UseForESIEligibility
+		dataType: string
+		lineageTag: 89333185-6f8d-4672-9923-6de45369b6d0
+		summarizeBy: none
+		sourceColumn: $UseForESIEligibility
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsInterestInclLastDay
+		dataType: string
+		lineageTag: 08d67ff3-8714-4b6f-a017-02dbda3323c1
+		summarizeBy: none
+		sourceColumn: $IsInterestInclLastDay
+
+		annotation SummarizationSetBy = Automatic
+
+	column $AppropriateTaxValue
+		dataType: string
+		lineageTag: 4ab899f0-c921-4cef-9230-90de5b1c6d05
+		summarizeBy: none
+		sourceColumn: $AppropriateTaxValue
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsBehaveAsDuty
+		dataType: string
+		lineageTag: 44aef7f8-3e27-40f8-9c31-4d9b1da2d64f
+		summarizeBy: none
+		sourceColumn: $IsBehaveAsDuty
+
+		annotation SummarizationSetBy = Automatic
+
+	column $InterestInclDayOfAddition
+		dataType: string
+		lineageTag: 6a1c61fb-b25d-4b26-8f90-27154dcb4469
+		summarizeBy: none
+		sourceColumn: $InterestInclDayOfAddition
+
+		annotation SummarizationSetBy = Automatic
+
+	column $InterestInclDayOfDeduction
+		dataType: string
+		lineageTag: 485bf75d-e8e3-4161-9659-fc7dcd643d96
+		summarizeBy: none
+		sourceColumn: $InterestInclDayOfDeduction
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsOthTerritoryAssessee
+		dataType: string
+		lineageTag: 5a7d9b20-aadc-4547-ad75-e10b84e1d87a
+		summarizeBy: none
+		sourceColumn: $IsOthTerritoryAssessee
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IgnoreMismatchWithWarning
+		dataType: string
+		lineageTag: 9a3357a3-ef83-4e7e-89d1-fd8b4516f232
+		summarizeBy: none
+		sourceColumn: $IgnoreMismatchWithWarning
+
+		annotation SummarizationSetBy = Automatic
+
+	column $UseAsNotionalBank
+		dataType: string
+		lineageTag: fc037c8f-6e02-487e-a412-f7614b62e48c
+		summarizeBy: none
+		sourceColumn: $UseAsNotionalBank
+
+		annotation SummarizationSetBy = Automatic
+
+	column $OverRideCreditLimit
+		dataType: string
+		lineageTag: 949ac183-3efb-4fdc-be78-82c17dec3e10
+		summarizeBy: none
+		sourceColumn: $OverRideCreditLimit
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsChequePrintingEnabled
+		dataType: string
+		lineageTag: 3564c030-dd06-4f3f-b033-3035a20e00cb
+		summarizeBy: none
+		sourceColumn: $IsChequePrintingEnabled
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ConsiderPurchaseforExport
+		dataType: string
+		lineageTag: b2a3a6f3-c293-4c6b-a8bb-7fda327efede
+		summarizeBy: none
+		sourceColumn: $ConsiderPurchaseforExport
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IseCommOperator
+		dataType: string
+		lineageTag: 4ae52c1a-dcac-4eb5-b7bd-faf4163daf9e
+		summarizeBy: none
+		sourceColumn: $IseCommOperator
+
+		annotation SummarizationSetBy = Automatic
+
+	column $OverrideBasedOnRealization
+		dataType: string
+		lineageTag: eb86902d-2305-414b-b6be-b3cc8a7b7515
+		summarizeBy: none
+		sourceColumn: $OverrideBasedOnRealization
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ShowinPayslip
+		dataType: string
+		lineageTag: 54212004-0ed4-464d-bb05-b7191608c39b
+		summarizeBy: none
+		sourceColumn: $ShowinPayslip
+
+		annotation SummarizationSetBy = Automatic
+
+	column $UseForGratuity
+		dataType: string
+		lineageTag: 64f39a58-f050-42f2-90b4-998dd4f16dcd
+		summarizeBy: none
+		sourceColumn: $UseForGratuity
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ForServiceTax
+		dataType: string
+		lineageTag: df1858af-b4bb-45ab-9899-1be4c4e03230
+		summarizeBy: none
+		sourceColumn: $ForServiceTax
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsInputCredit
+		dataType: string
+		lineageTag: 94d4bc6f-98ab-47dc-8ad5-16631af5d464
+		summarizeBy: none
+		sourceColumn: $IsInputCredit
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsExempted
+		dataType: string
+		lineageTag: 4ee3ee00-ece2-4bb5-9dc5-f34acfdb506c
+		summarizeBy: none
+		sourceColumn: $IsExempted
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsAbatementApplicable
+		dataType: string
+		lineageTag: 06bb2867-fd12-4c77-a699-fb730078e623
+		summarizeBy: none
+		sourceColumn: $IsAbatementApplicable
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsSTXNonRealizedType
+		dataType: string
+		lineageTag: e5974755-8ae4-4307-b28f-963b0e9650e2
+		summarizeBy: none
+		sourceColumn: $IsSTXNonRealizedType
+
+		annotation SummarizationSetBy = Automatic
+
+	column $TDSDeducteeIsSpecialRate
+		dataType: string
+		lineageTag: 2d46eca6-4ccd-4a8f-9456-bd85685dd292
+		summarizeBy: none
+		sourceColumn: $TDSDeducteeIsSpecialRate
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsEBankingEnabled
+		dataType: string
+		lineageTag: 59ad440b-7976-4d6b-aa2e-f24ba6584e61
+		summarizeBy: none
+		sourceColumn: $IsEBankingEnabled
+
+		annotation SummarizationSetBy = Automatic
+
+	column $SortPosition
+		dataType: string
+		lineageTag: 8c1f6f5c-3fe4-494f-a1dd-8a41f5b69ac6
+		summarizeBy: none
+		sourceColumn: $SortPosition
+
+		annotation SummarizationSetBy = Automatic
+
+	column $AlterID
+		dataType: string
+		lineageTag: 0ca7b15c-dfea-425d-9a72-1b2b3b026608
+		summarizeBy: none
+		sourceColumn: $AlterID
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CompanyGUID
+		dataType: string
+		lineageTag: 802f1e0d-c6d8-4807-a1bd-a413d8f5273c
+		summarizeBy: none
+		sourceColumn: $CompanyGUID
+
+		annotation SummarizationSetBy = Automatic
+
+	column $Name
+		dataType: string
+		lineageTag: edaea57d-957e-4893-9a88-1b7dc542772b
+		summarizeBy: none
+		sourceColumn: $Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column $AlteredOn
+		dataType: string
+		lineageTag: 86a13680-1bcc-49cf-b7ae-636d6d6eeb36
+		summarizeBy: none
+		sourceColumn: $AlteredOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $GSTRegistrationType
+		dataType: string
+		lineageTag: 4da81b23-efda-4836-98cb-d99b25d02432
+		summarizeBy: none
+		sourceColumn: $GSTRegistrationType
+
+		annotation SummarizationSetBy = Automatic
+
+	column $EnteredBy
+		dataType: string
+		lineageTag: 61ec82f5-d295-46d2-89fa-148855baffb6
+		summarizeBy: none
+		sourceColumn: $EnteredBy
+
+		annotation SummarizationSetBy = Automatic
+
+	column $AlteredBy
+		dataType: string
+		lineageTag: 3ff42af6-87bd-45ee-80d5-d920ca7e288f
+		summarizeBy: none
+		sourceColumn: $AlteredBy
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CountryofResidence
+		dataType: string
+		lineageTag: 6dacb21c-d684-42a5-869b-5f863fef8ecf
+		summarizeBy: none
+		sourceColumn: $CountryofResidence
+
+		annotation SummarizationSetBy = Automatic
+
+	column $UsedForTaxType
+		dataType: string
+		lineageTag: 6326d80d-a2a9-40fe-8fa2-8c5f8c9a6642
+		summarizeBy: none
+		sourceColumn: $UsedForTaxType
+
+		annotation SummarizationSetBy = Automatic
+
+	column $EMail
+		dataType: string
+		lineageTag: bedbc133-0df1-47bb-b40c-83238d18739d
+		summarizeBy: none
+		sourceColumn: $EMail
+
+		annotation SummarizationSetBy = Automatic
+
+	column $Narration
+		dataType: string
+		lineageTag: 69d3c982-5baf-4ecb-b6e0-94e37f3c9a59
+		summarizeBy: none
+		sourceColumn: $Narration
+
+		annotation SummarizationSetBy = Automatic
+
+	column $LedgerPhone
+		dataType: string
+		lineageTag: 2e125db2-ec65-4182-8c64-417c5d153ce4
+		summarizeBy: none
+		sourceColumn: $LedgerPhone
+
+		annotation SummarizationSetBy = Automatic
+
+	column $LedgerContact
+		dataType: string
+		lineageTag: 5a7b99f0-af1f-4494-87a0-5156bc1cc8c4
+		summarizeBy: none
+		sourceColumn: $LedgerContact
+
+		annotation SummarizationSetBy = Automatic
+
+	column $LedgerCountryISDCode
+		dataType: string
+		lineageTag: bb8e4e2e-6787-422d-8cf3-79883f6bc0e7
+		summarizeBy: none
+		sourceColumn: $LedgerCountryISDCode
+
+		annotation SummarizationSetBy = Automatic
+
+	column $GSTTypeofSupply
+		dataType: string
+		lineageTag: b580ff45-7573-4593-a349-52ea6a05417b
+		summarizeBy: none
+		sourceColumn: $GSTTypeofSupply
+
+		annotation SummarizationSetBy = Automatic
+
+	column $GSTNatureofSupply
+		dataType: string
+		lineageTag: fcfd1d41-c682-4127-8065-dc7b3feed44a
+		summarizeBy: none
+		sourceColumn: $GSTNatureofSupply
+
+		annotation SummarizationSetBy = Automatic
+
+	column $OldLedStateName
+		dataType: string
+		lineageTag: 6c797b90-2022-4359-9c4f-632ab2632301
+		summarizeBy: none
+		sourceColumn: $OldLedStateName
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ExciseLedgerClassification
+		dataType: string
+		lineageTag: 765413a2-ca28-4262-a534-111aa2b169ca
+		summarizeBy: none
+		sourceColumn: $ExciseLedgerClassification
+
+		annotation SummarizationSetBy = Automatic
+
+	column $OldCountryName
+		dataType: string
+		lineageTag: 841ff589-3a31-44bc-9220-da281691b4c8
+		summarizeBy: none
+		sourceColumn: $OldCountryName
+
+		annotation SummarizationSetBy = Automatic
+
+	column $BehaveAsPaymentGateway
+		dataType: string
+		lineageTag: ac7d2077-e195-4f11-b8b0-2d1bfaa843c4
+		summarizeBy: none
+		sourceColumn: $BehaveAsPaymentGateway
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsECDiffInsDate
+		dataType: string
+		lineageTag: a5e0856a-6f99-4c7b-a274-280643ed9238
+		summarizeBy: none
+		sourceColumn: $IsECDiffInsDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsSalaryMulFile
+		dataType: string
+		lineageTag: d38ead09-eb81-4e23-9400-9c4cb10f20ad
+		summarizeBy: none
+		sourceColumn: $IsSalaryMulFile
+
+		annotation SummarizationSetBy = Automatic
+
+	column $UseForKKC
+		dataType: string
+		lineageTag: 8c2c791f-3678-48be-9967-55ce36142fb5
+		summarizeBy: none
+		sourceColumn: $UseForKKC
+
+		annotation SummarizationSetBy = Automatic
+
+	column $UseForSBC
+		dataType: string
+		lineageTag: b5c6fe9b-32a1-49d7-bb30-b36fc98d46f3
+		summarizeBy: none
+		sourceColumn: $UseForSBC
+
+		annotation SummarizationSetBy = Automatic
+
+	partition ledgers = m
+		mode: import
+		queryGroup: TallyData\Masters
+		source =
+				let
+				    Source = GetTallyODBCSchema(PortNumber),
+				    AC_Ledgers_Table = Source{[Name="AC_Ledgers",Kind="Table"]}[Data],
+				    #"Filtered Rows" = Table.SelectRows(AC_Ledgers_Table, each true)
+				in
+				    #"Filtered Rows"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

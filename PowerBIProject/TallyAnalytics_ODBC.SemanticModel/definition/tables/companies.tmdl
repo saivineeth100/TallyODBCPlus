@@ -1,0 +1,3345 @@
+table companies
+	lineageTag: 8025dc19-a4a6-4f8e-a60d-fdf083bfaba4
+
+	column $StartingFrom
+		dataType: string
+		lineageTag: a356882c-c01d-438d-9705-2a6809a41873
+		summarizeBy: none
+		sourceColumn: $StartingFrom
+
+		annotation SummarizationSetBy = Automatic
+
+	column $BooksFrom
+		dataType: string
+		lineageTag: 6408c1fc-9cb6-48d2-ba3b-3e3b64f9e03c
+		summarizeBy: none
+		sourceColumn: $BooksFrom
+
+		annotation SummarizationSetBy = Automatic
+
+	column $VatApplDate
+		dataType: string
+		lineageTag: 1dfb5d33-476b-4f5b-9cab-7309ba0839b3
+		summarizeBy: none
+		sourceColumn: $VatApplDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CompositeApplicableDate
+		dataType: string
+		lineageTag: f39fd5c7-7b6e-40f1-847b-d01a14ef5d42
+		summarizeBy: none
+		sourceColumn: $CompositeApplicableDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column $VATRegDate
+		dataType: string
+		lineageTag: f152909b-e030-40b7-958f-c3e90883edc7
+		summarizeBy: none
+		sourceColumn: $VATRegDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column $DeactivateExciseFrom
+		dataType: string
+		lineageTag: 22496f42-60d4-40c6-86c5-a2d0a0b380fe
+		summarizeBy: none
+		sourceColumn: $DeactivateExciseFrom
+
+		annotation SummarizationSetBy = Automatic
+
+	column $STRegDate
+		dataType: string
+		lineageTag: 13e0ad3d-d12b-4e71-9e5c-6fe0815be055
+		summarizeBy: none
+		sourceColumn: $STRegDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column $DeactivateServiceTaxFrom
+		dataType: string
+		lineageTag: 74fbb081-4bd7-449d-af9e-c673f937a269
+		summarizeBy: none
+		sourceColumn: $DeactivateServiceTaxFrom
+
+		annotation SummarizationSetBy = Automatic
+
+	column $LBTRegnDate
+		dataType: string
+		lineageTag: 0152aaf0-804f-44f0-aea9-b0ec4efae852
+		summarizeBy: none
+		sourceColumn: $LBTRegnDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column $DeactivateVATFrom
+		dataType: string
+		lineageTag: 570e0eb6-d9e8-4feb-aaa2-bcc6c3fb5d5c
+		summarizeBy: none
+		sourceColumn: $DeactivateVATFrom
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CSTApplDate
+		dataType: string
+		lineageTag: 12cf7ff6-ef8f-4759-b01e-fcab1c680309
+		summarizeBy: none
+		sourceColumn: $CSTApplDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column $GSTApplicableDate
+		dataType: string
+		lineageTag: 0c411e76-19da-480a-b6c5-a9456290e7de
+		summarizeBy: none
+		sourceColumn: $GSTApplicableDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column $AuditedUpto
+		dataType: string
+		lineageTag: fd4ad3dd-d8c4-48b4-99e1-986a04aaccc3
+		summarizeBy: none
+		sourceColumn: $AuditedUpto
+
+		annotation SummarizationSetBy = Automatic
+
+	column $FIFOApplicableFrom
+		dataType: string
+		lineageTag: 2d99b9bc-d38d-4e11-8a80-ef70a98844b9
+		summarizeBy: none
+		sourceColumn: $FIFOApplicableFrom
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ReturnsStartFrom
+		dataType: string
+		lineageTag: ec67392d-dcb7-452a-94b7-a2605784dcf5
+		summarizeBy: none
+		sourceColumn: $ReturnsStartFrom
+
+		annotation SummarizationSetBy = Automatic
+
+	column $Name
+		dataType: string
+		lineageTag: 027284b5-ad06-4f17-b171-735ebccc60dc
+		summarizeBy: none
+		sourceColumn: $Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column $BasicCompanyFormalName
+		dataType: string
+		lineageTag: 7e5bc02e-a232-49f8-a080-12e38982e381
+		summarizeBy: none
+		sourceColumn: $BasicCompanyFormalName
+
+		annotation SummarizationSetBy = Automatic
+
+	column $Address
+		dataType: string
+		lineageTag: f07d7096-30dd-43e5-a206-0a7a3edc79ac
+		summarizeBy: none
+		sourceColumn: $Address
+
+		annotation SummarizationSetBy = Automatic
+
+	column $GUID
+		dataType: string
+		lineageTag: b0324777-11af-494c-b67d-6d0aa99fff98
+		summarizeBy: none
+		sourceColumn: $GUID
+
+		annotation SummarizationSetBy = Automatic
+
+	column $EMail
+		dataType: string
+		lineageTag: 033c5b9b-f49c-4451-94de-0c8b1fd7d361
+		summarizeBy: none
+		sourceColumn: $EMail
+
+		annotation SummarizationSetBy = Automatic
+
+	column $PriorStateName
+		dataType: string
+		lineageTag: 8d9721b7-df73-4682-a41c-c419b552478d
+		summarizeBy: none
+		sourceColumn: $PriorStateName
+
+		annotation SummarizationSetBy = Automatic
+
+	column $PINCode
+		dataType: string
+		lineageTag: e2e8fec1-0f93-43f2-87d4-5251faea2c63
+		summarizeBy: none
+		sourceColumn: $PINCode
+
+		annotation SummarizationSetBy = Automatic
+
+	column $PhoneNumber
+		dataType: string
+		lineageTag: c5afc661-1340-4f22-a698-858d0d3e69b2
+		summarizeBy: none
+		sourceColumn: $PhoneNumber
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPEmployerId
+		dataType: string
+		lineageTag: 628cce34-a9d2-4abb-bf9d-6ad98879b86e
+		summarizeBy: none
+		sourceColumn: $CMPEmployerId
+
+		annotation SummarizationSetBy = Automatic
+
+	column $FaxNumber
+		dataType: string
+		lineageTag: ab50f2eb-bdef-4ad3-8a7b-f26e07d92e27
+		summarizeBy: none
+		sourceColumn: $FaxNumber
+
+		annotation SummarizationSetBy = Automatic
+
+	column $Website
+		dataType: string
+		lineageTag: 8811c73a-f8b6-4654-a0c7-b6222f145ade
+		summarizeBy: none
+		sourceColumn: $Website
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IncomeTaxNumber
+		dataType: string
+		lineageTag: cb140159-bacb-47a8-9822-1f29bbf1df2e
+		summarizeBy: none
+		sourceColumn: $IncomeTaxNumber
+
+		annotation SummarizationSetBy = Automatic
+
+	column $SalesTaxNumber
+		dataType: string
+		lineageTag: 8972cd7a-95d8-4e35-94cc-a4e52f23932c
+		summarizeBy: none
+		sourceColumn: $SalesTaxNumber
+
+		annotation SummarizationSetBy = Automatic
+
+	column $InterStateSTNumber
+		dataType: string
+		lineageTag: 0e05272d-01b4-4e71-957b-f313450aaf4c
+		summarizeBy: none
+		sourceColumn: $InterStateSTNumber
+
+		annotation SummarizationSetBy = Automatic
+
+	column $TANumber
+		dataType: string
+		lineageTag: 2d286baf-10a9-4271-bd07-b8e666603bc7
+		summarizeBy: none
+		sourceColumn: $TANumber
+
+		annotation SummarizationSetBy = Automatic
+
+	column $VATTINNumber
+		dataType: string
+		lineageTag: 4d999184-ed78-427d-8375-f2754b7f8ce5
+		summarizeBy: none
+		sourceColumn: $VATTINNumber
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CompositeTIN
+		dataType: string
+		lineageTag: dba9fd31-6032-4932-a58b-ab0d77e3f788
+		summarizeBy: none
+		sourceColumn: $CompositeTIN
+
+		annotation SummarizationSetBy = Automatic
+
+	column $EECDebtors
+		dataType: string
+		lineageTag: 9776f110-579f-4282-8662-17c315023686
+		summarizeBy: none
+		sourceColumn: $EECDebtors
+
+		annotation SummarizationSetBy = Automatic
+
+	column $EECCreditors
+		dataType: string
+		lineageTag: 95a99a48-bc1d-460e-b01e-6d2d52f710db
+		summarizeBy: none
+		sourceColumn: $EECCreditors
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CountryName
+		dataType: string
+		lineageTag: 9c9526e7-354b-45e5-8dec-9010a1d1e374
+		summarizeBy: none
+		sourceColumn: $CountryName
+
+		annotation SummarizationSetBy = Automatic
+
+	column $VATPymtPeriod
+		dataType: string
+		lineageTag: 4f659346-09de-4445-a384-a99c8a6d2b10
+		summarizeBy: none
+		sourceColumn: $VATPymtPeriod
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CSTPymtPeriod
+		dataType: string
+		lineageTag: 0aa136cf-986e-4572-a372-00d21a7766cd
+		summarizeBy: none
+		sourceColumn: $CSTPymtPeriod
+
+		annotation SummarizationSetBy = Automatic
+
+	column $STPymtPeriod
+		dataType: string
+		lineageTag: fd3f582c-fd0f-4e41-8a5a-a913cacf776c
+		summarizeBy: none
+		sourceColumn: $STPymtPeriod
+
+		annotation SummarizationSetBy = Automatic
+
+	column $TDSPymtPeriod
+		dataType: string
+		lineageTag: 0dc98742-93f0-4831-9136-67e5b1d5bdda
+		summarizeBy: none
+		sourceColumn: $TDSPymtPeriod
+
+		annotation SummarizationSetBy = Automatic
+
+	column $TCSPymtPeriod
+		dataType: string
+		lineageTag: 5dde1b12-2919-4766-9a82-2646cd28a947
+		summarizeBy: none
+		sourceColumn: $TCSPymtPeriod
+
+		annotation SummarizationSetBy = Automatic
+
+	column $PFPymtPeriod
+		dataType: string
+		lineageTag: b55da4b9-b8ed-44a6-b2c0-de14b48108d8
+		summarizeBy: none
+		sourceColumn: $PFPymtPeriod
+
+		annotation SummarizationSetBy = Automatic
+
+	column $PTPymtPeriod
+		dataType: string
+		lineageTag: a40475bf-f01d-47c2-a753-8e918d2962d1
+		summarizeBy: none
+		sourceColumn: $PTPymtPeriod
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ESIPymtPeriod
+		dataType: string
+		lineageTag: 08e631c2-cb7f-42f7-aea8-0b72d1974083
+		summarizeBy: none
+		sourceColumn: $ESIPymtPeriod
+
+		annotation SummarizationSetBy = Automatic
+
+	column $FBTPymtPeriod
+		dataType: string
+		lineageTag: 46c9e7bf-44b2-4837-8607-655c0a5d8a94
+		summarizeBy: none
+		sourceColumn: $FBTPymtPeriod
+
+		annotation SummarizationSetBy = Automatic
+
+	column $FBTYearEndPymtPeriod
+		dataType: string
+		lineageTag: 61e063c5-5718-43aa-aec0-d640ba12b403
+		summarizeBy: none
+		sourceColumn: $FBTYearEndPymtPeriod
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ITDeductorWard
+		dataType: string
+		lineageTag: e67a5941-bbba-42f0-9058-3139a323b230
+		summarizeBy: none
+		sourceColumn: $ITDeductorWard
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ITDeductorRespPersonName
+		dataType: string
+		lineageTag: a1423d0f-4c20-495a-8623-4e042f3678f0
+		summarizeBy: none
+		sourceColumn: $ITDeductorRespPersonName
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ITDeductorRespPersonFatherName
+		dataType: string
+		lineageTag: 59159212-ba8d-4c49-abe1-1c5f8b23d03d
+		summarizeBy: none
+		sourceColumn: $ITDeductorRespPersonFatherName
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ITDeductorRespPersonDesig
+		dataType: string
+		lineageTag: 8d526d71-d038-4f1b-83f2-adf16dd71ea0
+		summarizeBy: none
+		sourceColumn: $ITDeductorRespPersonDesig
+
+		annotation SummarizationSetBy = Automatic
+
+	column $TANRegNo
+		dataType: string
+		lineageTag: 4e4fedf2-fc15-4f6d-997f-d8b02ca0f4b6
+		summarizeBy: none
+		sourceColumn: $TANRegNo
+
+		annotation SummarizationSetBy = Automatic
+
+	column $VATFilingPeriodicity
+		dataType: string
+		lineageTag: e91c2d3c-ed08-4f31-a55c-83d75f06c049
+		summarizeBy: none
+		sourceColumn: $VATFilingPeriodicity
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ITDeductorBranch
+		dataType: string
+		lineageTag: a26b6631-c94a-4a4d-aa3d-8f6410072f41
+		summarizeBy: none
+		sourceColumn: $ITDeductorBranch
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ExciseRegn
+		dataType: string
+		lineageTag: 5a964d58-c165-44e8-875c-461d34a15db2
+		summarizeBy: none
+		sourceColumn: $ExciseRegn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ExciseRange
+		dataType: string
+		lineageTag: 8dab00f0-3cec-4c6a-9a02-140e9ebd301b
+		summarizeBy: none
+		sourceColumn: $ExciseRange
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ExciseRangeAddress
+		dataType: string
+		lineageTag: aabc8bf6-7c9c-4077-8154-c78de497549e
+		summarizeBy: none
+		sourceColumn: $ExciseRangeAddress
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ExciseDivision
+		dataType: string
+		lineageTag: 1fb3539a-68c5-476f-a0e4-541ee7a52095
+		summarizeBy: none
+		sourceColumn: $ExciseDivision
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ExciseDivisionAddress
+		dataType: string
+		lineageTag: 0777628c-32f5-4544-b58a-725adb4fcbed
+		summarizeBy: none
+		sourceColumn: $ExciseDivisionAddress
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPIECCode
+		dataType: string
+		lineageTag: 65212cac-0c77-43ab-9fd7-f68925dfb660
+		summarizeBy: none
+		sourceColumn: $CMPIECCode
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ExciseAssesseeType
+		dataType: string
+		lineageTag: d25b9f8e-5af2-471f-ba15-ddc9df69de69
+		summarizeBy: none
+		sourceColumn: $ExciseAssesseeType
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ExciseCommissionerate
+		dataType: string
+		lineageTag: 0da7e336-52dd-4570-96ed-1f4922467268
+		summarizeBy: none
+		sourceColumn: $ExciseCommissionerate
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ExciseRangeCode
+		dataType: string
+		lineageTag: bb082abb-c8d1-48cf-9764-688cd5562032
+		summarizeBy: none
+		sourceColumn: $ExciseRangeCode
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ExciseDivisionCode
+		dataType: string
+		lineageTag: b5ec831b-053f-45a4-9fe4-765a436163b7
+		summarizeBy: none
+		sourceColumn: $ExciseDivisionCode
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ExciseFocalBankCode
+		dataType: string
+		lineageTag: 1510b089-e753-4064-8739-f534f6256239
+		summarizeBy: none
+		sourceColumn: $ExciseFocalBankCode
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ExciseFocalBankName
+		dataType: string
+		lineageTag: 63209a19-2703-440a-82c4-b9bde477299d
+		summarizeBy: none
+		sourceColumn: $ExciseFocalBankName
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ExciseFocalBankAddr
+		dataType: string
+		lineageTag: 16b10539-89d9-4e99-a244-0a35f5ddb319
+		summarizeBy: none
+		sourceColumn: $ExciseFocalBankAddr
+
+		annotation SummarizationSetBy = Automatic
+
+	column $STRegNumber
+		dataType: string
+		lineageTag: 03693a3a-b977-4192-894e-dd9c89114eb3
+		summarizeBy: none
+		sourceColumn: $STRegNumber
+
+		annotation SummarizationSetBy = Automatic
+
+	column $STAssesseeCode
+		dataType: string
+		lineageTag: 19fdea5e-aabe-4c36-9f46-96c26e02690d
+		summarizeBy: none
+		sourceColumn: $STAssesseeCode
+
+		annotation SummarizationSetBy = Automatic
+
+	column $STOrgType
+		dataType: string
+		lineageTag: 4d47b55f-2dc3-483d-b7e9-e4b7af543588
+		summarizeBy: none
+		sourceColumn: $STOrgType
+
+		annotation SummarizationSetBy = Automatic
+
+	column $STMajorService
+		dataType: string
+		lineageTag: a238b450-cd67-4ece-bdb7-b12f12ca2703
+		summarizeBy: none
+		sourceColumn: $STMajorService
+
+		annotation SummarizationSetBy = Automatic
+
+	column $STDivisionCode
+		dataType: string
+		lineageTag: 4e4e02d2-6749-46ca-8d2c-84bface4c184
+		summarizeBy: none
+		sourceColumn: $STDivisionCode
+
+		annotation SummarizationSetBy = Automatic
+
+	column $STDivisionName
+		dataType: string
+		lineageTag: 214692e6-f453-4411-ad3a-b95d6f10e399
+		summarizeBy: none
+		sourceColumn: $STDivisionName
+
+		annotation SummarizationSetBy = Automatic
+
+	column $STRangeCode
+		dataType: string
+		lineageTag: 543472d3-f204-4e43-9de3-3fdc8f0637eb
+		summarizeBy: none
+		sourceColumn: $STRangeCode
+
+		annotation SummarizationSetBy = Automatic
+
+	column $STRangeName
+		dataType: string
+		lineageTag: 426d667e-dc2f-4157-8f31-89f9173fc2a6
+		summarizeBy: none
+		sourceColumn: $STRangeName
+
+		annotation SummarizationSetBy = Automatic
+
+	column $STCommrtCode
+		dataType: string
+		lineageTag: b1441fc5-f95f-4266-a26c-344374c13fe6
+		summarizeBy: none
+		sourceColumn: $STCommrtCode
+
+		annotation SummarizationSetBy = Automatic
+
+	column $STCommrtName
+		dataType: string
+		lineageTag: ee64e8f3-0692-45c8-917b-6bf301a30eb1
+		summarizeBy: none
+		sourceColumn: $STCommrtName
+
+		annotation SummarizationSetBy = Automatic
+
+	column $STFocalBankCode
+		dataType: string
+		lineageTag: 4b0eb1ff-080b-4414-9e30-4c5d5bbef056
+		summarizeBy: none
+		sourceColumn: $STFocalBankCode
+
+		annotation SummarizationSetBy = Automatic
+
+	column $STFocalBankName
+		dataType: string
+		lineageTag: bc390b4b-933f-4fbd-9e42-0528ac840131
+		summarizeBy: none
+		sourceColumn: $STFocalBankName
+
+		annotation SummarizationSetBy = Automatic
+
+	column $STFocalBankAddr
+		dataType: string
+		lineageTag: 320629fb-6a1f-48f5-84c3-e4c08f332ff5
+		summarizeBy: none
+		sourceColumn: $STFocalBankAddr
+
+		annotation SummarizationSetBy = Automatic
+
+	column $STAdjExpenses
+		dataType: string
+		lineageTag: 7b9be1d9-395d-4ee6-8d87-fcc755373caa
+		summarizeBy: none
+		sourceColumn: $STAdjExpenses
+
+		annotation SummarizationSetBy = Automatic
+
+	column $STLargeTaxPayerUnit
+		dataType: string
+		lineageTag: 8173db52-b41a-42d1-8695-ab894873b9b9
+		summarizeBy: none
+		sourceColumn: $STLargeTaxPayerUnit
+
+		annotation SummarizationSetBy = Automatic
+
+	column $STPremisesCodeNo
+		dataType: string
+		lineageTag: 123d74fb-aee3-4755-9b26-7e27f80cc047
+		summarizeBy: none
+		sourceColumn: $STPremisesCodeNo
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ServiceTaxLiabilityType
+		dataType: string
+		lineageTag: ab4025b2-cfb4-4d26-a976-046aea2da8ab
+		summarizeBy: none
+		sourceColumn: $ServiceTaxLiabilityType
+
+		annotation SummarizationSetBy = Automatic
+
+	column $RevChargeType
+		dataType: string
+		lineageTag: 5ce14f48-959c-4090-8277-2b297a5c47d1
+		summarizeBy: none
+		sourceColumn: $RevChargeType
+
+		annotation SummarizationSetBy = Automatic
+
+	column $DeductorWard
+		dataType: string
+		lineageTag: ea57854b-91fb-4ac1-9c9e-9b09098e822f
+		summarizeBy: none
+		sourceColumn: $DeductorWard
+
+		annotation SummarizationSetBy = Automatic
+
+	column $DeductorStatus
+		dataType: string
+		lineageTag: 1e80b24c-18d7-42c2-8d25-be7db55e91fa
+		summarizeBy: none
+		sourceColumn: $DeductorStatus
+
+		annotation SummarizationSetBy = Automatic
+
+	column $DeductorRespPersonName
+		dataType: string
+		lineageTag: dbeb0563-a75a-4e05-8073-6d008ab132ca
+		summarizeBy: none
+		sourceColumn: $DeductorRespPersonName
+
+		annotation SummarizationSetBy = Automatic
+
+	column $DeductorRespPersonDesig
+		dataType: string
+		lineageTag: c4284e14-9c6a-47ef-b1f4-0f56ccba97ce
+		summarizeBy: none
+		sourceColumn: $DeductorRespPersonDesig
+
+		annotation SummarizationSetBy = Automatic
+
+	column $DeductorRespPersonFatherName
+		dataType: string
+		lineageTag: 35907d73-3c90-45be-aefe-a6822441f795
+		summarizeBy: none
+		sourceColumn: $DeductorRespPersonFatherName
+
+		annotation SummarizationSetBy = Automatic
+
+	column $HeadOfficeTANumber
+		dataType: string
+		lineageTag: d693a575-b681-4bca-9400-2a947e2aa204
+		summarizeBy: none
+		sourceColumn: $HeadOfficeTANumber
+
+		annotation SummarizationSetBy = Automatic
+
+	column $TDSDeductorType
+		dataType: string
+		lineageTag: bbe41f1f-b508-4b98-868b-781eea1a5855
+		summarizeBy: none
+		sourceColumn: $TDSDeductorType
+
+		annotation SummarizationSetBy = Automatic
+
+	column $PersonResponsiblePAN
+		dataType: string
+		lineageTag: 69b206ff-f452-40a6-9750-83806627f40f
+		summarizeBy: none
+		sourceColumn: $PersonResponsiblePAN
+
+		annotation SummarizationSetBy = Automatic
+
+	column $PersonResponsibleFlatNo
+		dataType: string
+		lineageTag: a94f817e-1416-4b1e-a31b-350fe5c85018
+		summarizeBy: none
+		sourceColumn: $PersonResponsibleFlatNo
+
+		annotation SummarizationSetBy = Automatic
+
+	column $PersonResponsiblePremises
+		dataType: string
+		lineageTag: 7d3bf5dd-f177-4cb5-b3e3-c911968f2fbe
+		summarizeBy: none
+		sourceColumn: $PersonResponsiblePremises
+
+		annotation SummarizationSetBy = Automatic
+
+	column $PersonResponsibleRoad
+		dataType: string
+		lineageTag: 5790a41e-f0b2-4434-a90f-bf36cf9be55c
+		summarizeBy: none
+		sourceColumn: $PersonResponsibleRoad
+
+		annotation SummarizationSetBy = Automatic
+
+	column $PersonResponsibleArea
+		dataType: string
+		lineageTag: 5be31f4e-dd66-4176-9116-43512ed53f1a
+		summarizeBy: none
+		sourceColumn: $PersonResponsibleArea
+
+		annotation SummarizationSetBy = Automatic
+
+	column $PersonResponsibleCity
+		dataType: string
+		lineageTag: 40ddc498-0598-4efa-b39b-6b19d34193d3
+		summarizeBy: none
+		sourceColumn: $PersonResponsibleCity
+
+		annotation SummarizationSetBy = Automatic
+
+	column $PriorPersonResponsibleState
+		dataType: string
+		lineageTag: 0d4a6014-e07d-47fa-86f6-28e4a2504242
+		summarizeBy: none
+		sourceColumn: $PriorPersonResponsibleState
+
+		annotation SummarizationSetBy = Automatic
+
+	column $PersonResponsiblePincode
+		dataType: string
+		lineageTag: fcba3dc5-09f8-4610-bb19-d779fa059737
+		summarizeBy: none
+		sourceColumn: $PersonResponsiblePincode
+
+		annotation SummarizationSetBy = Automatic
+
+	column $PersonResponsibleMobile
+		dataType: string
+		lineageTag: c78756fc-9429-4109-a42a-b8d63531f59e
+		summarizeBy: none
+		sourceColumn: $PersonResponsibleMobile
+
+		annotation SummarizationSetBy = Automatic
+
+	column $PersonResponsibleSTDCode
+		dataType: string
+		lineageTag: dcf0bd7b-868d-44b4-8093-4273914cc4f8
+		summarizeBy: none
+		sourceColumn: $PersonResponsibleSTDCode
+
+		annotation SummarizationSetBy = Automatic
+
+	column $PersonResponsiblePhone
+		dataType: string
+		lineageTag: 3f2190a0-a5df-47ca-b651-107a5bf72875
+		summarizeBy: none
+		sourceColumn: $PersonResponsiblePhone
+
+		annotation SummarizationSetBy = Automatic
+
+	column $PersonResponsibleEMail
+		dataType: string
+		lineageTag: 997694af-f24d-4cac-8b14-363d93178a35
+		summarizeBy: none
+		sourceColumn: $PersonResponsibleEMail
+
+		annotation SummarizationSetBy = Automatic
+
+	column $PersonResponsibleAltSTDCode
+		dataType: string
+		lineageTag: 59e833b5-2a22-4b84-b836-2e1115c3c018
+		summarizeBy: none
+		sourceColumn: $PersonResponsibleAltSTDCode
+
+		annotation SummarizationSetBy = Automatic
+
+	column $PersonResponsibleAltPhone
+		dataType: string
+		lineageTag: 5acb6503-b2f5-4f0f-860e-388f509d947a
+		summarizeBy: none
+		sourceColumn: $PersonResponsibleAltPhone
+
+		annotation SummarizationSetBy = Automatic
+
+	column $PersonResponsibleAltEMail
+		dataType: string
+		lineageTag: 6a81a1b0-d59b-4ab7-9707-484aa5cafe0e
+		summarizeBy: none
+		sourceColumn: $PersonResponsibleAltEMail
+
+		annotation SummarizationSetBy = Automatic
+
+	column $PersonResponsibleAltMobile
+		dataType: string
+		lineageTag: 3b2a736f-7a73-4e74-9f37-6469c4bc217a
+		summarizeBy: none
+		sourceColumn: $PersonResponsibleAltMobile
+
+		annotation SummarizationSetBy = Automatic
+
+	column $DeductorResponsibleAltSTDCode
+		dataType: string
+		lineageTag: 9b1076b9-95e7-4342-a26e-201561e8f7de
+		summarizeBy: none
+		sourceColumn: $DeductorResponsibleAltSTDCode
+
+		annotation SummarizationSetBy = Automatic
+
+	column $DeductorResponsibleAltPhone
+		dataType: string
+		lineageTag: 8298ff85-0267-4b2e-aa4c-45770d354a3a
+		summarizeBy: none
+		sourceColumn: $DeductorResponsibleAltPhone
+
+		annotation SummarizationSetBy = Automatic
+
+	column $DeductorResponsibleAltEMail
+		dataType: string
+		lineageTag: 0278d9d3-718a-4b31-9285-2419ca61c9a7
+		summarizeBy: none
+		sourceColumn: $DeductorResponsibleAltEMail
+
+		annotation SummarizationSetBy = Automatic
+
+	column $DeductorResponsibleAltMobile
+		dataType: string
+		lineageTag: c2d4d7a6-eb67-40b7-9181-408d3d55b4a8
+		summarizeBy: none
+		sourceColumn: $DeductorResponsibleAltMobile
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ITDeductorRespPersonPAN
+		dataType: string
+		lineageTag: 61f04ca7-c0b7-43e7-a6e8-4bff76af2d69
+		summarizeBy: none
+		sourceColumn: $ITDeductorRespPersonPAN
+
+		annotation SummarizationSetBy = Automatic
+
+	column $DeductorBranch
+		dataType: string
+		lineageTag: b1656539-3e56-4947-b9d3-b0f4414397ac
+		summarizeBy: none
+		sourceColumn: $DeductorBranch
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CompanyFBTAssesseeType
+		dataType: string
+		lineageTag: b4c618bc-4476-4328-adc6-693f7ee9d8d2
+		summarizeBy: none
+		sourceColumn: $CompanyFBTAssesseeType
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CompanyFBTAssesseeCategory
+		dataType: string
+		lineageTag: 80507873-f40c-458e-b4c4-73b96f5e9845
+		summarizeBy: none
+		sourceColumn: $CompanyFBTAssesseeCategory
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPPFCode
+		dataType: string
+		lineageTag: 31e99503-f1fa-43a4-abc0-9763f5258794
+		summarizeBy: none
+		sourceColumn: $CMPPFCode
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPPFAccountGroupCode
+		dataType: string
+		lineageTag: 836ff98e-a9ff-4dc3-90db-ec6baf255c8e
+		summarizeBy: none
+		sourceColumn: $CMPPFAccountGroupCode
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPPFSecurityCode
+		dataType: string
+		lineageTag: 79bda6b8-2793-4371-abcf-bbac76a0184a
+		summarizeBy: none
+		sourceColumn: $CMPPFSecurityCode
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPESICode
+		dataType: string
+		lineageTag: 60a98a9f-4fb7-45ec-995a-55a846510418
+		summarizeBy: none
+		sourceColumn: $CMPESICode
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPESIBranchOffice
+		dataType: string
+		lineageTag: 6990e02c-ba85-4a20-a653-0cdcc83db96e
+		summarizeBy: none
+		sourceColumn: $CMPESIBranchOffice
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPESIWorkingDays
+		dataType: string
+		lineageTag: 93dd8346-7227-4364-8221-21f942e43e70
+		summarizeBy: none
+		sourceColumn: $CMPESIWorkingDays
+
+		annotation SummarizationSetBy = Automatic
+
+	column $XBRLCIN
+		dataType: string
+		lineageTag: be3706f1-97ab-47b6-8b24-dce120f098a0
+		summarizeBy: none
+		sourceColumn: $XBRLCIN
+
+		annotation SummarizationSetBy = Automatic
+
+	column $XBRLIndustryType
+		dataType: string
+		lineageTag: e384d95f-c15a-422b-a719-3f7bc8d3e412
+		summarizeBy: none
+		sourceColumn: $XBRLIndustryType
+
+		annotation SummarizationSetBy = Automatic
+
+	column $LBTRegnNo
+		dataType: string
+		lineageTag: 2a7ef7f7-6125-46d2-9b0a-8e695ac43f30
+		summarizeBy: none
+		sourceColumn: $LBTRegnNo
+
+		annotation SummarizationSetBy = Automatic
+
+	column $LBTZone
+		dataType: string
+		lineageTag: 057d6349-b5b1-4fe0-a811-dceb3d2b58e9
+		summarizeBy: none
+		sourceColumn: $LBTZone
+
+		annotation SummarizationSetBy = Automatic
+
+	column $EconomicActivityCode
+		dataType: string
+		lineageTag: 93c4c100-d0b4-4620-8760-cc0f6ea496ef
+		summarizeBy: none
+		sourceColumn: $EconomicActivityCode
+
+		annotation SummarizationSetBy = Automatic
+
+	column $AuthorisedPersonName
+		dataType: string
+		lineageTag: 8429fcfa-fb11-40f1-a5b7-cb2de0b2c67c
+		summarizeBy: none
+		sourceColumn: $AuthorisedPersonName
+
+		annotation SummarizationSetBy = Automatic
+
+	column $AuthorisedPersonDesignation
+		dataType: string
+		lineageTag: 62bdb1f6-0adf-4dff-8ba3-5be4ae0937af
+		summarizeBy: none
+		sourceColumn: $AuthorisedPersonDesignation
+
+		annotation SummarizationSetBy = Automatic
+
+	column $AuthorisedPlace
+		dataType: string
+		lineageTag: 19523c71-54af-4f39-af3d-8c977a7c2611
+		summarizeBy: none
+		sourceColumn: $AuthorisedPlace
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CircleSector
+		dataType: string
+		lineageTag: 054eee09-c467-4f8d-9dac-7ecdaf2bf71a
+		summarizeBy: none
+		sourceColumn: $CircleSector
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CircleDivision
+		dataType: string
+		lineageTag: 261c74a2-e5bf-433f-9866-ff1520e340b1
+		summarizeBy: none
+		sourceColumn: $CircleDivision
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ExportImportCode
+		dataType: string
+		lineageTag: 45555a1f-17e3-4c4e-8555-1f2b06fb1463
+		summarizeBy: none
+		sourceColumn: $ExportImportCode
+
+		annotation SummarizationSetBy = Automatic
+
+	column $TaxAuthorisedPerson
+		dataType: string
+		lineageTag: e82f1eac-e7ff-4a77-a2e0-9cdb8062733e
+		summarizeBy: none
+		sourceColumn: $TaxAuthorisedPerson
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CircleWard
+		dataType: string
+		lineageTag: 9520c839-75ce-436d-9a71-73201ac4cc1b
+		summarizeBy: none
+		sourceColumn: $CircleWard
+
+		annotation SummarizationSetBy = Automatic
+
+	column $VATReturnForm
+		dataType: string
+		lineageTag: 2da95384-6a76-4b53-928b-c807b3988a30
+		summarizeBy: none
+		sourceColumn: $VATReturnForm
+
+		annotation SummarizationSetBy = Automatic
+
+	column $GSTRegistrationNumber
+		dataType: string
+		lineageTag: f091a52a-1224-47d5-8592-6e19716979aa
+		summarizeBy: none
+		sourceColumn: $GSTRegistrationNumber
+
+		annotation SummarizationSetBy = Automatic
+
+	column $GSTRegistrationType
+		dataType: string
+		lineageTag: 21932471-4242-4dba-8af7-c288da2feb6f
+		summarizeBy: none
+		sourceColumn: $GSTRegistrationType
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CmpTypeOfSupply
+		dataType: string
+		lineageTag: acbf45f8-a163-4d9e-bcf7-3b0281757349
+		summarizeBy: none
+		sourceColumn: $CmpTypeOfSupply
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CompanyNameNative
+		dataType: string
+		lineageTag: f20392c5-bec2-4a6e-bfa0-cb707c1d9191
+		summarizeBy: none
+		sourceColumn: $CompanyNameNative
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CompanyAddressNative
+		dataType: string
+		lineageTag: 533a5f8d-5ceb-49d1-a4fc-1f50c9bd1600
+		summarizeBy: none
+		sourceColumn: $CompanyAddressNative
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CompanyEmirateNative
+		dataType: string
+		lineageTag: 62047c5f-27df-418f-b934-2ee448217217
+		summarizeBy: none
+		sourceColumn: $CompanyEmirateNative
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CompanyCountryNative
+		dataType: string
+		lineageTag: c5849b18-4cbd-429e-9e4e-7ba5a42295c9
+		summarizeBy: none
+		sourceColumn: $CompanyCountryNative
+
+		annotation SummarizationSetBy = Automatic
+
+	column $VATDealerType
+		dataType: string
+		lineageTag: a7f23c8f-c3e8-410d-b048-b62a9e6e60e0
+		summarizeBy: none
+		sourceColumn: $VATDealerType
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ConnectName
+		dataType: string
+		lineageTag: 86756180-8f69-443c-b733-2c6b4c084f37
+		summarizeBy: none
+		sourceColumn: $ConnectName
+
+		annotation SummarizationSetBy = Automatic
+
+	column $SMSShortCode
+		dataType: string
+		lineageTag: 28d4630f-8c8b-41d0-ad20-f30b88dc0982
+		summarizeBy: none
+		sourceColumn: $SMSShortCode
+
+		annotation SummarizationSetBy = Automatic
+
+	column $SMSPrefix
+		dataType: string
+		lineageTag: 3f3306d4-26d2-45fc-b493-dcc43e90edb1
+		summarizeBy: none
+		sourceColumn: $SMSPrefix
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CompanyContactPerson
+		dataType: string
+		lineageTag: 552f8234-88a5-4f25-9879-de56c5e0f722
+		summarizeBy: none
+		sourceColumn: $CompanyContactPerson
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CompanyContactNumber
+		dataType: string
+		lineageTag: 624726a7-90dd-40e5-b9df-5eccfe13c289
+		summarizeBy: none
+		sourceColumn: $CompanyContactNumber
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CompanySMSName
+		dataType: string
+		lineageTag: ae114374-1553-406f-a6c9-abc055afaf49
+		summarizeBy: none
+		sourceColumn: $CompanySMSName
+
+		annotation SummarizationSetBy = Automatic
+
+	column $LogoPath
+		dataType: string
+		lineageTag: e77574a0-83c3-42e4-9ea6-9d59ebba25ac
+		summarizeBy: none
+		sourceColumn: $LogoPath
+
+		annotation SummarizationSetBy = Automatic
+
+	column $StateName
+		dataType: string
+		lineageTag: 54bb39e4-6646-47a1-a979-8971b18fa38a
+		summarizeBy: none
+		sourceColumn: $StateName
+
+		annotation SummarizationSetBy = Automatic
+
+	column $PersonResponsibleState
+		dataType: string
+		lineageTag: fb380e80-87f1-4510-a39b-5334d5f2fac4
+		summarizeBy: none
+		sourceColumn: $PersonResponsibleState
+
+		annotation SummarizationSetBy = Automatic
+
+	column $PriceLevel
+		dataType: string
+		lineageTag: 3adaa1b2-85b3-4fb1-8e93-fd7f95e24794
+		summarizeBy: none
+		sourceColumn: $PriceLevel
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CompanyChequeName
+		dataType: string
+		lineageTag: d3631027-67dd-4faa-acf8-b23cde9260ad
+		summarizeBy: none
+		sourceColumn: $CompanyChequeName
+
+		annotation SummarizationSetBy = Automatic
+
+	column $MobileNumbers
+		dataType: string
+		lineageTag: 0302a90b-9ba0-457a-b1fc-4822fe0871a6
+		summarizeBy: none
+		sourceColumn: $MobileNumbers
+
+		annotation SummarizationSetBy = Automatic
+
+	column $TDSNatureofPayment
+		dataType: string
+		lineageTag: d71d6792-86a6-4ad7-95a0-94e58a854412
+		summarizeBy: none
+		sourceColumn: $TDSNatureofPayment
+
+		annotation SummarizationSetBy = Automatic
+
+	column $TCSNatureofGood
+		dataType: string
+		lineageTag: b0753809-07f6-4a9b-b565-b0693e32e783
+		summarizeBy: none
+		sourceColumn: $TCSNatureofGood
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CRNumber
+		dataType: string
+		lineageTag: f2a1fbfe-5773-4d8e-934c-6ea5071899da
+		summarizeBy: none
+		sourceColumn: $CRNumber
+
+		annotation SummarizationSetBy = Automatic
+
+	column $BranchCRNumber
+		dataType: string
+		lineageTag: 7f57941b-58bd-479d-9588-060c593a9c24
+		summarizeBy: none
+		sourceColumn: $BranchCRNumber
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ShowBankDetails
+		dataType: string
+		lineageTag: 7602aee1-f0ec-4c08-b768-b474a7ac6b0f
+		summarizeBy: none
+		sourceColumn: $ShowBankDetails
+
+		annotation SummarizationSetBy = Automatic
+
+	column $GenerateBatchesOn
+		dataType: string
+		lineageTag: 4f774639-5772-498c-be3c-efb609649c7f
+		summarizeBy: none
+		sourceColumn: $GenerateBatchesOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $UploadLastRefresh
+		dataType: string
+		lineageTag: b6f313da-01ea-4979-a5e9-508f87ad3407
+		summarizeBy: none
+		sourceColumn: $UploadLastRefresh
+
+		annotation SummarizationSetBy = Automatic
+
+	column $AdminEmailID
+		dataType: string
+		lineageTag: 20de43b2-c36d-45bf-b50e-6ff6b0cac920
+		summarizeBy: none
+		sourceColumn: $AdminEmailID
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsAggregate
+		dataType: string
+		lineageTag: ab44e3ee-d46a-4b69-845b-68b40555f6aa
+		summarizeBy: none
+		sourceColumn: $IsAggregate
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IndianVat
+		dataType: string
+		lineageTag: 0fb5650c-8da5-460b-81e6-d3cc8b3d897f
+		summarizeBy: none
+		sourceColumn: $IndianVat
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsVATRegdDealer
+		dataType: string
+		lineageTag: 7ed715d0-b459-4831-9e23-8fe1417fda33
+		summarizeBy: none
+		sourceColumn: $IsVATRegdDealer
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsVATCompositeDealer
+		dataType: string
+		lineageTag: d8b74de0-3954-436a-8911-de805504e8f1
+		summarizeBy: none
+		sourceColumn: $IsVATCompositeDealer
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsDaywiseCashAggregate
+		dataType: string
+		lineageTag: bb3e95ff-da25-4e47-91fa-2dca9a84becb
+		summarizeBy: none
+		sourceColumn: $IsDaywiseCashAggregate
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ITDeductorType
+		dataType: string
+		lineageTag: 9e0f932a-76d8-44ba-b4d6-f537a3f73fe8
+		summarizeBy: none
+		sourceColumn: $ITDeductorType
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsAuditWorkingPaperOn
+		dataType: string
+		lineageTag: eeb1538b-4b3a-4183-9fc3-3c01af1d886d
+		summarizeBy: none
+		sourceColumn: $IsAuditWorkingPaperOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsAuditCategoryOn
+		dataType: string
+		lineageTag: 60fa7bdd-313b-4822-a1d9-52b762f9d510
+		summarizeBy: none
+		sourceColumn: $IsAuditCategoryOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsRoundOffExceOn
+		dataType: string
+		lineageTag: c6b44bc5-e648-4a4b-8e2b-8068c24675bc
+		summarizeBy: none
+		sourceColumn: $IsRoundOffExceOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsCSTWithAddlTax
+		dataType: string
+		lineageTag: 652d1dc0-98b4-46e7-ad0f-15793d5097db
+		summarizeBy: none
+		sourceColumn: $IsCSTWithAddlTax
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsSalesTaxCessOn
+		dataType: string
+		lineageTag: a4fdb313-3d8a-4804-86a2-34a90cd44196
+		summarizeBy: none
+		sourceColumn: $IsSalesTaxCessOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsExciseClassificationOn
+		dataType: string
+		lineageTag: bad10702-b60e-40c1-ab11-d364296a66a0
+		summarizeBy: none
+		sourceColumn: $IsExciseClassificationOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $STIsSTLargeTaxPayer
+		dataType: string
+		lineageTag: 70fdbbc1-45d7-4d8c-a636-be4fb77d8cb3
+		summarizeBy: none
+		sourceColumn: $STIsSTLargeTaxPayer
+
+		annotation SummarizationSetBy = Automatic
+
+	column $STXIsRoundOffApplicable
+		dataType: string
+		lineageTag: bdb152af-34bb-4bb7-843f-76d5b076d7bb
+		summarizeBy: none
+		sourceColumn: $STXIsRoundOffApplicable
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ServiceTaxIsSEZ
+		dataType: string
+		lineageTag: e40c1a0b-11ed-4ea6-9803-c4f1fe8ed006
+		summarizeBy: none
+		sourceColumn: $ServiceTaxIsSEZ
+
+		annotation SummarizationSetBy = Automatic
+
+	column $STIsMultiUnit
+		dataType: string
+		lineageTag: daf9e289-77b7-44fe-94e5-bcf2544e532f
+		summarizeBy: none
+		sourceColumn: $STIsMultiUnit
+
+		annotation SummarizationSetBy = Automatic
+
+	column $STUserDefinedClass
+		dataType: string
+		lineageTag: b8d421a5-7d96-46ea-b11f-5dc69746c527
+		summarizeBy: none
+		sourceColumn: $STUserDefinedClass
+
+		annotation SummarizationSetBy = Automatic
+
+	column $STIsInputServDistributor
+		dataType: string
+		lineageTag: 377ee369-c3e0-4822-ae88-6cc87abcdce9
+		summarizeBy: none
+		sourceColumn: $STIsInputServDistributor
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsSTStockItemOn
+		dataType: string
+		lineageTag: 62ce2d41-c11f-4f9b-8e85-4bbcb2eae968
+		summarizeBy: none
+		sourceColumn: $IsSTStockItemOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsReverseApplicable
+		dataType: string
+		lineageTag: d41c624c-99e0-48f6-a90e-505faa4ef3ad
+		summarizeBy: none
+		sourceColumn: $IsReverseApplicable
+
+		annotation SummarizationSetBy = Automatic
+
+	column $STIsMonthlyReturns
+		dataType: string
+		lineageTag: 274f8bf2-d10d-467c-9355-6028fb198909
+		summarizeBy: none
+		sourceColumn: $STIsMonthlyReturns
+
+		annotation SummarizationSetBy = Automatic
+
+	column $DeductorType
+		dataType: string
+		lineageTag: e64f8c46-046d-41b9-a89f-4f54a337eeaa
+		summarizeBy: none
+		sourceColumn: $DeductorType
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IgnoreITExemption
+		dataType: string
+		lineageTag: 28e84644-eda7-4809-a2e4-0afd964a729b
+		summarizeBy: none
+		sourceColumn: $IgnoreITExemption
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IgnoreTCSITExemption
+		dataType: string
+		lineageTag: d1f23c74-f595-48b2-a54e-dc6b11883ddd
+		summarizeBy: none
+		sourceColumn: $IgnoreTCSITExemption
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsTDSStockItemOn
+		dataType: string
+		lineageTag: 0d5ab8ff-beed-40a7-8610-a35e53adffc4
+		summarizeBy: none
+		sourceColumn: $IsTDSStockItemOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsFBTSurchargeApplicable
+		dataType: string
+		lineageTag: fb1207a7-cb0b-4b1e-9022-c7032ecf95d8
+		summarizeBy: none
+		sourceColumn: $IsFBTSurchargeApplicable
+
+		annotation SummarizationSetBy = Automatic
+
+	column $XBRLIsConsolidatedRepType
+		dataType: string
+		lineageTag: 96dee388-27c1-4410-ae6a-d73e7fb3f7a0
+		summarizeBy: none
+		sourceColumn: $XBRLIsConsolidatedRepType
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsLBTOn
+		dataType: string
+		lineageTag: 0be635b2-d9a5-49d5-891c-ac77a18356cb
+		summarizeBy: none
+		sourceColumn: $IsLBTOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsVATClassOn
+		dataType: string
+		lineageTag: 60494c7f-c785-4ec0-9d9e-0493da96ed56
+		summarizeBy: none
+		sourceColumn: $IsVATClassOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsMRPOn
+		dataType: string
+		lineageTag: d41de68b-c6e0-4324-8a92-81ff19af5ada
+		summarizeBy: none
+		sourceColumn: $IsMRPOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsRevisedAnnexureOn
+		dataType: string
+		lineageTag: e3a05c2c-11e6-4460-bbb5-c3ee57ec7534
+		summarizeBy: none
+		sourceColumn: $IsRevisedAnnexureOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $EnableVATOnItemRate
+		dataType: string
+		lineageTag: 07178858-659d-42a6-bc26-ceee93b0421f
+		summarizeBy: none
+		sourceColumn: $EnableVATOnItemRate
+
+		annotation SummarizationSetBy = Automatic
+
+	column $EnableVATOnQuantity
+		dataType: string
+		lineageTag: ca77245d-96ff-4e58-a7bc-0650fd23e548
+		summarizeBy: none
+		sourceColumn: $EnableVATOnQuantity
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsInZRBasicServices
+		dataType: string
+		lineageTag: b6a391bb-7df1-4d81-8990-74ab0b8b75fd
+		summarizeBy: none
+		sourceColumn: $IsInZRBasicServices
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsDesignatedZone
+		dataType: string
+		lineageTag: b3a9951e-5863-4673-b959-5fc917b90d87
+		summarizeBy: none
+		sourceColumn: $IsDesignatedZone
+
+		annotation SummarizationSetBy = Automatic
+
+	column $STMaintainSepAccForExempt
+		dataType: string
+		lineageTag: a49b19f4-1260-4bff-800c-53936280285c
+		summarizeBy: none
+		sourceColumn: $STMaintainSepAccForExempt
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsDeviceDetailsReq
+		dataType: string
+		lineageTag: 6f932e50-80fe-42e3-81f6-a11e2695d174
+		summarizeBy: none
+		sourceColumn: $IsDeviceDetailsReq
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPIsUnderNPVScheme
+		dataType: string
+		lineageTag: ba82ee7e-37d5-420c-90ab-b35cf6d641f1
+		summarizeBy: none
+		sourceColumn: $CMPIsUnderNPVScheme
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsSecurityOn
+		dataType: string
+		lineageTag: 10ed5b3b-7dce-4572-9392-1b54f523ef73
+		summarizeBy: none
+		sourceColumn: $IsSecurityOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsAccountingOn
+		dataType: string
+		lineageTag: 881bfbe3-a2ab-4076-8b3d-d4a1a877d1c7
+		summarizeBy: none
+		sourceColumn: $IsAccountingOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsInventoryOn
+		dataType: string
+		lineageTag: a7996fc4-09f0-4192-9bd4-2e7144cd74d5
+		summarizeBy: none
+		sourceColumn: $IsInventoryOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsIntegrated
+		dataType: string
+		lineageTag: 80635621-b42c-41b0-9856-f2d2e93c618f
+		summarizeBy: none
+		sourceColumn: $IsIntegrated
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsBillWiseOn
+		dataType: string
+		lineageTag: cf17f36c-4fd4-4305-9bed-136c9e52e638
+		summarizeBy: none
+		sourceColumn: $IsBillWiseOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsAllBillWiseOn
+		dataType: string
+		lineageTag: 9ed452c6-0b99-4ecc-8218-19e636cdefdc
+		summarizeBy: none
+		sourceColumn: $IsAllBillWiseOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsCostCentresOn
+		dataType: string
+		lineageTag: fbb38779-3938-400f-ab0b-09ddfc0675bc
+		summarizeBy: none
+		sourceColumn: $IsCostCentresOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $prevIsCostCategoryOn
+		dataType: string
+		lineageTag: 4f23f3bc-4a64-494d-888b-ea177707016b
+		summarizeBy: none
+		sourceColumn: $prevIsCostCategoryOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $prevIsStockCategoryOn
+		dataType: string
+		lineageTag: 19bbb06b-b210-491d-9a8d-603ed0cc7961
+		summarizeBy: none
+		sourceColumn: $prevIsStockCategoryOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsBatchWiseOn
+		dataType: string
+		lineageTag: 29de42e5-a79a-448c-b54e-8fa7535894b3
+		summarizeBy: none
+		sourceColumn: $IsBatchWiseOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsPerishableOn
+		dataType: string
+		lineageTag: 10b5ebab-67bd-480d-9cd4-bf23a4f0f24e
+		summarizeBy: none
+		sourceColumn: $IsPerishableOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $prevIsMultiGodownOn
+		dataType: string
+		lineageTag: 015c8504-4657-4f79-b71a-2c225eb37da8
+		summarizeBy: none
+		sourceColumn: $prevIsMultiGodownOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $prevIsMultiCurrencyOn
+		dataType: string
+		lineageTag: db39ea11-5e56-468e-b8ed-11669041d698
+		summarizeBy: none
+		sourceColumn: $prevIsMultiCurrencyOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $prevIsInvoicingOn
+		dataType: string
+		lineageTag: 910b581d-fac7-4b38-9fe1-18f11a3b855f
+		summarizeBy: none
+		sourceColumn: $prevIsInvoicingOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $prevIsRevJrnlOn
+		dataType: string
+		lineageTag: 1cc7d501-ebb6-4396-b1ef-4dd814ef3cfb
+		summarizeBy: none
+		sourceColumn: $prevIsRevJrnlOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsRemindersOn
+		dataType: string
+		lineageTag: d115a1db-c458-4341-b695-86a4b29db9aa
+		summarizeBy: none
+		sourceColumn: $IsRemindersOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $prevIsDCNoteOn
+		dataType: string
+		lineageTag: f38e3a84-e23d-4521-95dd-fd7e17b757a8
+		summarizeBy: none
+		sourceColumn: $prevIsDCNoteOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $prevIsRejectionOn
+		dataType: string
+		lineageTag: d2c5ef9c-6184-444d-9795-03853dbc17e8
+		summarizeBy: none
+		sourceColumn: $prevIsRejectionOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $prevIsTrackingOn
+		dataType: string
+		lineageTag: 978462a9-2291-435c-b31a-9159e50d620b
+		summarizeBy: none
+		sourceColumn: $prevIsTrackingOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsExciseOn
+		dataType: string
+		lineageTag: a1f90b85-d147-4656-9ed0-fc54522f3d6b
+		summarizeBy: none
+		sourceColumn: $IsExciseOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsChqPrintingOn
+		dataType: string
+		lineageTag: c707852b-f95d-4591-8725-f8975a0abaf6
+		summarizeBy: none
+		sourceColumn: $IsChqPrintingOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $DiffActualQty
+		dataType: string
+		lineageTag: 4fe77128-acd6-49c0-80d3-e66aec4d7615
+		summarizeBy: none
+		sourceColumn: $DiffActualQty
+
+		annotation SummarizationSetBy = Automatic
+
+	column $UseZeroEntries
+		dataType: string
+		lineageTag: 7780193e-1fbc-4090-afcc-f60f642c099c
+		summarizeBy: none
+		sourceColumn: $UseZeroEntries
+
+		annotation SummarizationSetBy = Automatic
+
+	column $AddlAmount
+		dataType: string
+		lineageTag: 30ef6f70-a292-4b7a-9f45-da19aea28930
+		summarizeBy: none
+		sourceColumn: $AddlAmount
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsTallyAuditOn
+		dataType: string
+		lineageTag: 26a7bb67-074f-4524-9251-49f9403d185c
+		summarizeBy: none
+		sourceColumn: $IsTallyAuditOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $prevIsBudgetsOn
+		dataType: string
+		lineageTag: 2ab93df8-0fbb-4a9f-b230-730e26f7f4ab
+		summarizeBy: none
+		sourceColumn: $prevIsBudgetsOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsPayrollOn
+		dataType: string
+		lineageTag: 51b3a342-21b4-47e0-95c6-61c7d5673508
+		summarizeBy: none
+		sourceColumn: $IsPayrollOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsTDSOn
+		dataType: string
+		lineageTag: 81aada94-a1c3-452c-93da-413998210ae8
+		summarizeBy: none
+		sourceColumn: $IsTDSOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsServiceTaxOn
+		dataType: string
+		lineageTag: 58a34d09-398f-40d0-ac2a-1560f70144d2
+		summarizeBy: none
+		sourceColumn: $IsServiceTaxOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsJobCostingOn
+		dataType: string
+		lineageTag: e45a1c72-9b65-4013-ba39-4bf729584bc4
+		summarizeBy: none
+		sourceColumn: $IsJobCostingOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsTcsOn
+		dataType: string
+		lineageTag: cdd32353-ad41-4914-9f94-96c88f3d70cb
+		summarizeBy: none
+		sourceColumn: $IsTcsOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsExciseReportsOn
+		dataType: string
+		lineageTag: 79d72861-8806-4a6e-a362-5a791c2e2555
+		summarizeBy: none
+		sourceColumn: $IsExciseReportsOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsCompositeDealer
+		dataType: string
+		lineageTag: d9e85308-0a6d-4dbc-b873-366fa62c318c
+		summarizeBy: none
+		sourceColumn: $IsCompositeDealer
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsBOMOn
+		dataType: string
+		lineageTag: bc253556-b400-42a5-897f-d629e5419dbb
+		summarizeBy: none
+		sourceColumn: $IsBOMOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $prevIsSalesOrdersOn
+		dataType: string
+		lineageTag: d60cc5c6-1f88-410f-bc91-4326b9de607b
+		summarizeBy: none
+		sourceColumn: $prevIsSalesOrdersOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $prevIsPurcOrdersOn
+		dataType: string
+		lineageTag: 485c2cb9-9383-4216-afb8-d67bdfdeb3b6
+		summarizeBy: none
+		sourceColumn: $prevIsPurcOrdersOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsDiscountsOn
+		dataType: string
+		lineageTag: e1a509cb-2354-43d5-b9ff-088b31a496da
+		summarizeBy: none
+		sourceColumn: $IsDiscountsOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CNoteAsInvoice
+		dataType: string
+		lineageTag: e0aa1f07-1087-49a3-b490-ee30258e70e3
+		summarizeBy: none
+		sourceColumn: $CNoteAsInvoice
+
+		annotation SummarizationSetBy = Automatic
+
+	column $UKVATReturns
+		dataType: string
+		lineageTag: ec7e5122-bd68-42a5-9e3f-0548191b325b
+		summarizeBy: none
+		sourceColumn: $UKVATReturns
+
+		annotation SummarizationSetBy = Automatic
+
+	column $UsePriceLevels
+		dataType: string
+		lineageTag: 62ab0d91-8c3a-4f6c-be66-32f8219c1230
+		summarizeBy: none
+		sourceColumn: $UsePriceLevels
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsInterestOn
+		dataType: string
+		lineageTag: 50173563-42bd-4656-afc7-1253a8873632
+		summarizeBy: none
+		sourceColumn: $IsInterestOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsAdvInterestOn
+		dataType: string
+		lineageTag: 1ca06778-4a56-4bf3-9a1c-38f9335b5c09
+		summarizeBy: none
+		sourceColumn: $IsAdvInterestOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $PurcAsInvoice
+		dataType: string
+		lineageTag: 6a02ee34-d5a7-4770-8e8e-431854f58bd0
+		summarizeBy: none
+		sourceColumn: $PurcAsInvoice
+
+		annotation SummarizationSetBy = Automatic
+
+	column $prevUseAutoCost
+		dataType: string
+		lineageTag: af0c65d7-2b30-42d5-bca5-b133820f9627
+		summarizeBy: none
+		sourceColumn: $prevUseAutoCost
+
+		annotation SummarizationSetBy = Automatic
+
+	column $DNoteAsInvoice
+		dataType: string
+		lineageTag: ec1eb1b9-adb2-48d0-ab52-8886658c77e0
+		summarizeBy: none
+		sourceColumn: $DNoteAsInvoice
+
+		annotation SummarizationSetBy = Automatic
+
+	column $prevPLasIncomeExpense
+		dataType: string
+		lineageTag: b27ebce9-dd7b-48fb-b96f-cb27b949d5b3
+		summarizeBy: none
+		sourceColumn: $prevPLasIncomeExpense
+
+		annotation SummarizationSetBy = Automatic
+
+	column $AllowinMobile
+		dataType: string
+		lineageTag: b4b38b39-14c7-4473-b3e0-1443583f854c
+		summarizeBy: none
+		sourceColumn: $AllowinMobile
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsIndentOn
+		dataType: string
+		lineageTag: 15972357-c543-407d-854e-163c5d4780ec
+		summarizeBy: none
+		sourceColumn: $IsIndentOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsFBTOn
+		dataType: string
+		lineageTag: f0fdb111-8256-4120-8ef0-de398376eb09
+		summarizeBy: none
+		sourceColumn: $IsFBTOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsExciseMfgrTraderOn
+		dataType: string
+		lineageTag: 3bddc025-fa84-42c2-8a89-d7892ff44fb5
+		summarizeBy: none
+		sourceColumn: $IsExciseMfgrTraderOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsSalesTaxOn
+		dataType: string
+		lineageTag: 49aa690a-2c7a-4fa7-9bce-196197f21a39
+		summarizeBy: none
+		sourceColumn: $IsSalesTaxOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsPayrollStatOn
+		dataType: string
+		lineageTag: 12944a41-c82f-42c9-9420-8fcb940927c2
+		summarizeBy: none
+		sourceColumn: $IsPayrollStatOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ConnectCompany
+		dataType: string
+		lineageTag: 47619c92-df36-486e-8e67-21d14ffc0647
+		summarizeBy: none
+		sourceColumn: $ConnectCompany
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ConnectCompanyOnLoad
+		dataType: string
+		lineageTag: 7109f109-74d0-4608-851c-0dd08affa01f
+		summarizeBy: none
+		sourceColumn: $ConnectCompanyOnLoad
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsEntryTaxApplicable
+		dataType: string
+		lineageTag: ee308c45-b304-4f4e-938d-05d585a59dc5
+		summarizeBy: none
+		sourceColumn: $IsEntryTaxApplicable
+
+		annotation SummarizationSetBy = Automatic
+
+	column $RevenueLedForOpBal
+		dataType: string
+		lineageTag: ae1cde2b-fd9e-4ba5-a5ca-60d46649eb12
+		summarizeBy: none
+		sourceColumn: $RevenueLedForOpBal
+
+		annotation SummarizationSetBy = Automatic
+
+	column $EnableSMSAccess
+		dataType: string
+		lineageTag: f5958d03-008e-4b0f-a78e-5420ded18446
+		summarizeBy: none
+		sourceColumn: $EnableSMSAccess
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsRcptsPymtsOn
+		dataType: string
+		lineageTag: 9ebb2de0-9067-4f0a-93ef-2853af6a5a7d
+		summarizeBy: none
+		sourceColumn: $IsRcptsPymtsOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsLogoEnabled
+		dataType: string
+		lineageTag: 33c927da-60cf-44f5-8c2c-0498202eb898
+		summarizeBy: none
+		sourceColumn: $IsLogoEnabled
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsXBRLOn
+		dataType: string
+		lineageTag: 0d12d54f-97ce-49da-a022-9b710b551a1b
+		summarizeBy: none
+		sourceColumn: $IsXBRLOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsProprietorship
+		dataType: string
+		lineageTag: 8493e06b-ae6d-4919-8e6d-c7f3a5a2f018
+		summarizeBy: none
+		sourceColumn: $IsProprietorship
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsYearWise
+		dataType: string
+		lineageTag: 103f7598-dd2a-43b2-9954-d8e8f41f4a6a
+		summarizeBy: none
+		sourceColumn: $IsYearWise
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsCmpLTUOn
+		dataType: string
+		lineageTag: c3d73861-91c3-4bc7-8d35-9be03751e76c
+		summarizeBy: none
+		sourceColumn: $IsCmpLTUOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsGSTOn
+		dataType: string
+		lineageTag: 13897026-9e61-4828-98a5-5cab8b4b1cca
+		summarizeBy: none
+		sourceColumn: $IsGSTOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsGSTClassifOn
+		dataType: string
+		lineageTag: ec4e3805-5853-414d-a91e-ac750dafdccc
+		summarizeBy: none
+		sourceColumn: $IsGSTClassifOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $DenyConnectCompanyToBPS
+		dataType: string
+		lineageTag: 3b671e3d-5d45-49b3-b1c3-c80a91f59fe0
+		summarizeBy: none
+		sourceColumn: $DenyConnectCompanyToBPS
+
+		annotation SummarizationSetBy = Automatic
+
+	column $PromptOnConnect
+		dataType: string
+		lineageTag: 0f47567a-47e2-482a-9fff-7bc7f0ba6125
+		summarizeBy: none
+		sourceColumn: $PromptOnConnect
+
+		annotation SummarizationSetBy = Automatic
+
+	column $TCSforOtherGoods
+		dataType: string
+		lineageTag: 5f30cc6f-d529-4c05-b285-7d91e9581376
+		summarizeBy: none
+		sourceColumn: $TCSforOtherGoods
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsConnectOnLoadDisabled
+		dataType: string
+		lineageTag: 2b9797c1-480f-4d87-a456-cd40f713c496
+		summarizeBy: none
+		sourceColumn: $IsConnectOnLoadDisabled
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsDemoEnvEnabled
+		dataType: string
+		lineageTag: ca071ad3-6385-4aff-9a78-ff6694a9ed32
+		summarizeBy: none
+		sourceColumn: $IsDemoEnvEnabled
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsBrowserDesktopView
+		dataType: string
+		lineageTag: f060fcc3-4954-43d2-9704-5a00dde9cf01
+		summarizeBy: none
+		sourceColumn: $IsBrowserDesktopView
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsEditLogOn
+		dataType: string
+		lineageTag: 081411c4-ad05-4946-a351-610177f137d5
+		summarizeBy: none
+		sourceColumn: $IsEditLogOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $WasEditLogOn
+		dataType: string
+		lineageTag: 414608d5-b2e3-4517-8d97-d93876586fb7
+		summarizeBy: none
+		sourceColumn: $WasEditLogOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsDisallowInEduMode
+		dataType: string
+		lineageTag: ba23256f-ed50-46b7-a4a8-88de22561af0
+		summarizeBy: none
+		sourceColumn: $IsDisallowInEduMode
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsMultiAddressOn
+		dataType: string
+		lineageTag: ff1fe6f4-f142-4c60-a741-e0fb7712eddc
+		summarizeBy: none
+		sourceColumn: $IsMultiAddressOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsEbankingOn
+		dataType: string
+		lineageTag: 6d3ca344-298d-40ad-b8e5-c340a76aaefc
+		summarizeBy: none
+		sourceColumn: $IsEbankingOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsJobWorkOn
+		dataType: string
+		lineageTag: 8b16ef32-5a61-4cd6-be74-a3b23aec9159
+		summarizeBy: none
+		sourceColumn: $IsJobWorkOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $prevIsMaterialTransferOn
+		dataType: string
+		lineageTag: 2172b258-7355-4103-9b53-f3732b49e473
+		summarizeBy: none
+		sourceColumn: $prevIsMaterialTransferOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsCostTrackingOn
+		dataType: string
+		lineageTag: 419bb482-3a07-497c-92a0-985c212381d2
+		summarizeBy: none
+		sourceColumn: $IsCostTrackingOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $EnablePwdPolicy
+		dataType: string
+		lineageTag: 8c632ceb-0405-416a-b7bb-27d199a679ac
+		summarizeBy: none
+		sourceColumn: $EnablePwdPolicy
+
+		annotation SummarizationSetBy = Automatic
+
+	column $RestrictPwdReuse
+		dataType: string
+		lineageTag: 78660c9f-2131-4515-9913-8ca402f8f4a7
+		summarizeBy: none
+		sourceColumn: $RestrictPwdReuse
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ResetPwdOnFirstLogin
+		dataType: string
+		lineageTag: 03ec8549-9e8c-43f8-840d-408c43234a94
+		summarizeBy: none
+		sourceColumn: $ResetPwdOnFirstLogin
+
+		annotation SummarizationSetBy = Automatic
+
+	column $AllowPwdReset
+		dataType: string
+		lineageTag: 512f93ec-3864-44f7-b436-7bf3ec34fac0
+		summarizeBy: none
+		sourceColumn: $AllowPwdReset
+
+		annotation SummarizationSetBy = Automatic
+
+	column $NotifyOfExpiry
+		dataType: string
+		lineageTag: b8c0ebd7-1974-4cfa-beff-8d63ce57e74b
+		summarizeBy: none
+		sourceColumn: $NotifyOfExpiry
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsDefPwdPolicyAltered
+		dataType: string
+		lineageTag: f4742d0a-4446-42c5-8fe5-f135b4febbaa
+		summarizeBy: none
+		sourceColumn: $IsDefPwdPolicyAltered
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsBankingVchMigrated
+		dataType: string
+		lineageTag: 0e3b6864-8c91-4032-856a-c4d8bb7b9c36
+		summarizeBy: none
+		sourceColumn: $IsBankingVchMigrated
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsBeneficiaryCodeOn
+		dataType: string
+		lineageTag: 3013cbb7-45d2-4dff-ae4d-7f8c4a6a2740
+		summarizeBy: none
+		sourceColumn: $IsBeneficiaryCodeOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsTransferModeOn
+		dataType: string
+		lineageTag: 653cb4df-45ce-4193-8a56-f24ac0f67aa3
+		summarizeBy: none
+		sourceColumn: $IsTransferModeOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsBankingforCCOn
+		dataType: string
+		lineageTag: 780a4f32-ac27-4f6d-a036-007714a3ae4f
+		summarizeBy: none
+		sourceColumn: $IsBankingforCCOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsImpBankDetailsOn
+		dataType: string
+		lineageTag: dc0db1c5-f5d0-4fb9-a200-18ef7da78a86
+		summarizeBy: none
+		sourceColumn: $IsImpBankDetailsOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsApprovalOn
+		dataType: string
+		lineageTag: c5e6b69d-41fa-423e-ad1c-890d7fba6455
+		summarizeBy: none
+		sourceColumn: $IsApprovalOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsExportOnVchCreate
+		dataType: string
+		lineageTag: fada05f3-df19-4756-a8f9-e4d57db63a02
+		summarizeBy: none
+		sourceColumn: $IsExportOnVchCreate
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsExportWithErrors
+		dataType: string
+		lineageTag: 60589072-22f1-48a8-b564-f69865b7e20b
+		summarizeBy: none
+		sourceColumn: $IsExportWithErrors
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsResetBankStatus
+		dataType: string
+		lineageTag: e5487093-0c5e-4467-9a75-60b32cc8af7e
+		summarizeBy: none
+		sourceColumn: $IsResetBankStatus
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsISOCurrencyApplicable
+		dataType: string
+		lineageTag: 1520d993-3812-4999-a069-fac4cfc52764
+		summarizeBy: none
+		sourceColumn: $IsISOCurrencyApplicable
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsIgnoreWithWarnings
+		dataType: string
+		lineageTag: fe850118-41d6-4141-94e0-ca487e4cd1e0
+		summarizeBy: none
+		sourceColumn: $IsIgnoreWithWarnings
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsFIFOApplied
+		dataType: string
+		lineageTag: 48b38482-a63c-4cec-a0e5-2ab01d86ba45
+		summarizeBy: none
+		sourceColumn: $IsFIFOApplied
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsTrackVouchersOn
+		dataType: string
+		lineageTag: 5b353c46-5475-4e76-ac15-c5ca432ccab4
+		summarizeBy: none
+		sourceColumn: $IsTrackVouchersOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ResetTrackedChanges
+		dataType: string
+		lineageTag: 23dd896d-c45c-430b-88be-830cef614eac
+		summarizeBy: none
+		sourceColumn: $ResetTrackedChanges
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CompanyNumber
+		dataType: string
+		lineageTag: b3e39776-9def-496f-8f1a-00b65c533a8d
+		summarizeBy: none
+		sourceColumn: $CompanyNumber
+
+		annotation SummarizationSetBy = Automatic
+
+	column $StatutoryVersion
+		dataType: string
+		lineageTag: 08f2a110-bbd0-4c15-9af2-12592e578700
+		summarizeBy: none
+		sourceColumn: $StatutoryVersion
+
+		annotation SummarizationSetBy = Automatic
+
+	column $VATPymtDueDate
+		dataType: string
+		lineageTag: 625c080e-7f13-4e5a-a5fa-1c8d9932c4db
+		summarizeBy: none
+		sourceColumn: $VATPymtDueDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CSTPymtDueDate
+		dataType: string
+		lineageTag: 7d092feb-f6b2-4df0-abe0-6377f87f366f
+		summarizeBy: none
+		sourceColumn: $CSTPymtDueDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column $STPymtDueDate
+		dataType: string
+		lineageTag: 92f0bc14-cba3-4258-8cf9-d4aad43befe9
+		summarizeBy: none
+		sourceColumn: $STPymtDueDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column $TDSPymtDueDate
+		dataType: string
+		lineageTag: 743d3f7f-96cf-44ba-b76c-de9f1ca01fa1
+		summarizeBy: none
+		sourceColumn: $TDSPymtDueDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column $TCSPymtDueDate
+		dataType: string
+		lineageTag: 2f1a1435-dcee-4105-9d29-2cecc4b7a63a
+		summarizeBy: none
+		sourceColumn: $TCSPymtDueDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column $PFPymtDueDate
+		dataType: string
+		lineageTag: 78ff5987-1c30-421a-8851-c8ca50c7b6fd
+		summarizeBy: none
+		sourceColumn: $PFPymtDueDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column $PTPymtDueDate
+		dataType: string
+		lineageTag: b7232b9d-847a-4385-9f5c-0f3144d23ead
+		summarizeBy: none
+		sourceColumn: $PTPymtDueDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ESIPymtDueDate
+		dataType: string
+		lineageTag: d5ad15b4-94aa-47da-9b17-0f5e68b43ba6
+		summarizeBy: none
+		sourceColumn: $ESIPymtDueDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column $FBTPymtDueDate
+		dataType: string
+		lineageTag: 4659be17-b820-431f-b757-867b4caf8474
+		summarizeBy: none
+		sourceColumn: $FBTPymtDueDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column $FBTYearEndPymtDueDate
+		dataType: string
+		lineageTag: d6e00d61-d50c-43cc-a25c-85876780ebb1
+		summarizeBy: none
+		sourceColumn: $FBTYearEndPymtDueDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column $UserAccountIds
+		dataType: string
+		lineageTag: a17caadc-5329-4dec-8182-469d2c0fe753
+		summarizeBy: none
+		sourceColumn: $UserAccountIds
+
+		annotation SummarizationSetBy = Automatic
+
+	column $STCrAdjPercent
+		dataType: string
+		lineageTag: e40b5a22-988e-4560-a842-ae5f9633ea7f
+		summarizeBy: none
+		sourceColumn: $STCrAdjPercent
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CmpTaxAmountTolerence
+		dataType: string
+		lineageTag: 03e6c388-8fa3-4f7e-b57c-d2c618ab6189
+		summarizeBy: none
+		sourceColumn: $CmpTaxAmountTolerence
+
+		annotation SummarizationSetBy = Automatic
+
+	column $PwdLength
+		dataType: string
+		lineageTag: cb16fcda-26f4-4781-bc91-6441f32a9417
+		summarizeBy: none
+		sourceColumn: $PwdLength
+
+		annotation SummarizationSetBy = Automatic
+
+	column $LettersInPwd
+		dataType: string
+		lineageTag: a5d43afe-d52d-4122-bf0b-1810fb7c666d
+		summarizeBy: none
+		sourceColumn: $LettersInPwd
+
+		annotation SummarizationSetBy = Automatic
+
+	column $NumeralsInPwd
+		dataType: string
+		lineageTag: 7b08d6bd-e1d5-4038-901e-73c78af66df2
+		summarizeBy: none
+		sourceColumn: $NumeralsInPwd
+
+		annotation SummarizationSetBy = Automatic
+
+	column $SpclCharsInPwd
+		dataType: string
+		lineageTag: 20195936-d3f6-4eef-9d76-ffebbca463d7
+		summarizeBy: none
+		sourceColumn: $SpclCharsInPwd
+
+		annotation SummarizationSetBy = Automatic
+
+	column $PwdHistory
+		dataType: string
+		lineageTag: f6a9b50f-ea9e-47a8-bd29-1117b7e8b5de
+		summarizeBy: none
+		sourceColumn: $PwdHistory
+
+		annotation SummarizationSetBy = Automatic
+
+	column $PwdExpiry
+		dataType: string
+		lineageTag: d39a55a7-185b-45f4-b54a-b1ac68d4a002
+		summarizeBy: none
+		sourceColumn: $PwdExpiry
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ExpiryNotifPeriod
+		dataType: string
+		lineageTag: 732378e0-93e5-4a12-8f4b-c4c68309b33f
+		summarizeBy: none
+		sourceColumn: $ExpiryNotifPeriod
+
+		annotation SummarizationSetBy = Automatic
+
+	column $NACHVersion
+		dataType: string
+		lineageTag: 79432d8e-590b-4a0b-8d1b-d969c9a9fff1
+		summarizeBy: none
+		sourceColumn: $NACHVersion
+
+		annotation SummarizationSetBy = Automatic
+
+	column $MaxCashValue
+		dataType: string
+		lineageTag: fe02f4bd-af7a-4141-8e79-55bcc17d7bb7
+		summarizeBy: none
+		sourceColumn: $MaxCashValue
+
+		annotation SummarizationSetBy = Automatic
+
+	column $MinCashValue
+		dataType: string
+		lineageTag: 46437f3f-9c29-4777-bc34-de6d4f5f69b5
+		summarizeBy: none
+		sourceColumn: $MinCashValue
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPESIEligibleAmount
+		dataType: string
+		lineageTag: 7749f28a-5872-4c64-9d45-24f44bf5f285
+		summarizeBy: none
+		sourceColumn: $CMPESIEligibleAmount
+
+		annotation SummarizationSetBy = Automatic
+
+	column $RTGSLimit
+		dataType: string
+		lineageTag: 9bf7b819-65bf-4a2d-9a35-00ef0dc3db11
+		summarizeBy: none
+		sourceColumn: $RTGSLimit
+
+		annotation SummarizationSetBy = Automatic
+
+	column $_DBName
+		dataType: string
+		lineageTag: 5941c9e9-212d-4b63-b076-9f92f37547dc
+		summarizeBy: none
+		sourceColumn: $_DBName
+
+		annotation SummarizationSetBy = Automatic
+
+	column $_ThisYearBeg
+		dataType: string
+		lineageTag: f528c6bf-1aeb-4bc8-85ea-4eb9868ad196
+		summarizeBy: none
+		sourceColumn: $_ThisYearBeg
+
+		annotation SummarizationSetBy = Automatic
+
+	column $_ThisYearEnd
+		dataType: string
+		lineageTag: acac95c7-1782-4a45-92ab-5251be5773e6
+		summarizeBy: none
+		sourceColumn: $_ThisYearEnd
+
+		annotation SummarizationSetBy = Automatic
+
+	column $_PrevYearBeg
+		dataType: string
+		lineageTag: 7549e9c0-422d-4932-8df3-82c161278940
+		summarizeBy: none
+		sourceColumn: $_PrevYearBeg
+
+		annotation SummarizationSetBy = Automatic
+
+	column $_PrevYearEnd
+		dataType: string
+		lineageTag: ad984b29-2c5f-4431-8a2d-707fc92fa0c2
+		summarizeBy: none
+		sourceColumn: $_PrevYearEnd
+
+		annotation SummarizationSetBy = Automatic
+
+	column $_ThisQuarterBeg
+		dataType: string
+		lineageTag: 98c3871b-ad5a-4b21-a31b-2f7d33ccb53d
+		summarizeBy: none
+		sourceColumn: $_ThisQuarterBeg
+
+		annotation SummarizationSetBy = Automatic
+
+	column $_ThisQuarterEnd
+		dataType: string
+		lineageTag: 97561dc3-c2cd-4eb6-8cb1-bed1ed79be19
+		summarizeBy: none
+		sourceColumn: $_ThisQuarterEnd
+
+		annotation SummarizationSetBy = Automatic
+
+	column $_PrevQuarterBeg
+		dataType: string
+		lineageTag: 11bd78d7-cb84-4f5b-bb9a-b5bd8f8565c2
+		summarizeBy: none
+		sourceColumn: $_PrevQuarterBeg
+
+		annotation SummarizationSetBy = Automatic
+
+	column $_PrevQuarterEnd
+		dataType: string
+		lineageTag: 8085e18a-b0b3-4ae6-aa4c-50e8088723b6
+		summarizeBy: none
+		sourceColumn: $_PrevQuarterEnd
+
+		annotation SummarizationSetBy = Automatic
+
+	column $_Name
+		dataType: string
+		lineageTag: 86739aca-2d8b-4dbe-b542-9fdbdbf6480e
+		summarizeBy: none
+		sourceColumn: $_Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column $_Address1
+		dataType: string
+		lineageTag: ef22445e-4fe1-4fd7-bb81-7fa1265b9680
+		summarizeBy: none
+		sourceColumn: $_Address1
+
+		annotation SummarizationSetBy = Automatic
+
+	column $_Address2
+		dataType: string
+		lineageTag: 392a660a-77d5-4bad-8e78-a7102bc89911
+		summarizeBy: none
+		sourceColumn: $_Address2
+
+		annotation SummarizationSetBy = Automatic
+
+	column $_Address3
+		dataType: string
+		lineageTag: 5ce460bc-1615-4016-8e39-19f7241f1d12
+		summarizeBy: none
+		sourceColumn: $_Address3
+
+		annotation SummarizationSetBy = Automatic
+
+	column $_Address4
+		dataType: string
+		lineageTag: cd272542-51b1-4563-9f26-4ff47cb97944
+		summarizeBy: none
+		sourceColumn: $_Address4
+
+		annotation SummarizationSetBy = Automatic
+
+	column $_Address5
+		dataType: string
+		lineageTag: 125c7a6e-d157-4785-87ce-da7ca531a683
+		summarizeBy: none
+		sourceColumn: $_Address5
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPVATTINValidTill
+		dataType: string
+		lineageTag: 9cf538d5-bd37-4637-9520-c2f7f3db0990
+		summarizeBy: none
+		sourceColumn: $CMPVATTINValidTill
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPEntitlementDate
+		dataType: string
+		lineageTag: 24da3705-51b8-44ec-8d64-f0a062f5d73a
+		summarizeBy: none
+		sourceColumn: $CMPEntitlementDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPExemptionExpiryDate
+		dataType: string
+		lineageTag: 4a2a8f3f-aedb-4e94-a063-2d2879b280f6
+		summarizeBy: none
+		sourceColumn: $CMPExemptionExpiryDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPExemptionExtentFrom
+		dataType: string
+		lineageTag: 73fc5234-2b5d-49a8-ac5f-85c5e143e1de
+		summarizeBy: none
+		sourceColumn: $CMPExemptionExtentFrom
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPExemptionExtentTo
+		dataType: string
+		lineageTag: 3c815baf-a284-4fed-9363-372236f5c8fb
+		summarizeBy: none
+		sourceColumn: $CMPExemptionExtentTo
+
+		annotation SummarizationSetBy = Automatic
+
+	column $VATRegistrationDate
+		dataType: string
+		lineageTag: 279c364c-971b-43cc-847f-59e92d03aa05
+		summarizeBy: none
+		sourceColumn: $VATRegistrationDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CSTRegistrationDate
+		dataType: string
+		lineageTag: 3262f22f-526a-483d-98a7-6f3627c75d09
+		summarizeBy: none
+		sourceColumn: $CSTRegistrationDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column $AutoSetOffAdvRcptPymtFromPrev
+		dataType: string
+		lineageTag: 94097da0-35ad-422b-9f52-03b6565b911f
+		summarizeBy: none
+		sourceColumn: $AutoSetOffAdvRcptPymtFromPrev
+
+		annotation SummarizationSetBy = Automatic
+
+	column $OnlineReconApplicableFrom
+		dataType: string
+		lineageTag: 6ed5f4d0-a08f-4a8a-905c-3dfe8c347714
+		summarizeBy: none
+		sourceColumn: $OnlineReconApplicableFrom
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CountryISDCode
+		dataType: string
+		lineageTag: ca0754f0-40be-4862-8605-1562fd43eb78
+		summarizeBy: none
+		sourceColumn: $CountryISDCode
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPVATPostBoXNo
+		dataType: string
+		lineageTag: be5f86a3-5dc3-43f1-bfcb-c9f5f554d879
+		summarizeBy: none
+		sourceColumn: $CMPVATPostBoXNo
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPVATTown
+		dataType: string
+		lineageTag: 6df240c6-1c2a-43f3-a039-4bc1a2a5fb45
+		summarizeBy: none
+		sourceColumn: $CMPVATTown
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPVATStreet
+		dataType: string
+		lineageTag: 94863321-17da-485e-ad07-17c71b357533
+		summarizeBy: none
+		sourceColumn: $CMPVATStreet
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPVATBuilding
+		dataType: string
+		lineageTag: 15249182-a60c-4ba5-95e2-4ab1747c2bdf
+		summarizeBy: none
+		sourceColumn: $CMPVATBuilding
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPAuthorisedPlace
+		dataType: string
+		lineageTag: 593f2ce6-1bc4-475f-8f8d-25ae292ee862
+		summarizeBy: none
+		sourceColumn: $CMPAuthorisedPlace
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPCircleWard
+		dataType: string
+		lineageTag: 825417dd-507a-414f-acf3-0565b6941859
+		summarizeBy: none
+		sourceColumn: $CMPCircleWard
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPImportExportCode
+		dataType: string
+		lineageTag: e841bff4-2017-4af6-a9a2-ec26919bd799
+		summarizeBy: none
+		sourceColumn: $CMPImportExportCode
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPCircleSector
+		dataType: string
+		lineageTag: 95429b35-6f4e-4aef-8e41-a38e80794802
+		summarizeBy: none
+		sourceColumn: $CMPCircleSector
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPCircleDivision
+		dataType: string
+		lineageTag: 126b5037-51d2-4da3-820a-7d5a1705ef8c
+		summarizeBy: none
+		sourceColumn: $CMPCircleDivision
+
+		annotation SummarizationSetBy = Automatic
+
+	column $TaxInvoiceCode
+		dataType: string
+		lineageTag: cb552ca9-fc4a-4761-a7b6-280d0ce7cec4
+		summarizeBy: none
+		sourceColumn: $TaxInvoiceCode
+
+		annotation SummarizationSetBy = Automatic
+
+	column $LineofBussiness
+		dataType: string
+		lineageTag: f7a386b8-4071-4e73-979e-40ca33cdc723
+		summarizeBy: none
+		sourceColumn: $LineofBussiness
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPTradeName
+		dataType: string
+		lineageTag: 2ed7d632-e96e-4544-a005-652e7a222bb4
+		summarizeBy: none
+		sourceColumn: $CMPTradeName
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPAssessingauthority
+		dataType: string
+		lineageTag: 36d2644d-bd28-480d-abb9-e50ba1a1616e
+		summarizeBy: none
+		sourceColumn: $CMPAssessingauthority
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPSONDaughter
+		dataType: string
+		lineageTag: 5361540e-0772-4097-bfd7-d105fb1b0740
+		summarizeBy: none
+		sourceColumn: $CMPSONDaughter
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPEntitlementCertificateNo
+		dataType: string
+		lineageTag: 4442ef73-b5b9-4042-83f8-a14feca1b1a6
+		summarizeBy: none
+		sourceColumn: $CMPEntitlementCertificateNo
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPDealerStatus
+		dataType: string
+		lineageTag: 0e4a644b-6061-4e0c-88a8-a77e744d6ced
+		summarizeBy: none
+		sourceColumn: $CMPDealerStatus
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPFaxNumber
+		dataType: string
+		lineageTag: d83e8867-428e-4f91-ac16-be08dc48ecd5
+		summarizeBy: none
+		sourceColumn: $CMPFaxNumber
+
+		annotation SummarizationSetBy = Automatic
+
+	column $BranchName2
+		dataType: string
+		lineageTag: 3fb57b6c-2ad4-4ffb-be10-13d679f22e80
+		summarizeBy: none
+		sourceColumn: $BranchName2
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPCompTaxSlNo
+		dataType: string
+		lineageTag: 399932ae-7178-4b98-a2ad-4a9c15770a7a
+		summarizeBy: none
+		sourceColumn: $CMPCompTaxSlNo
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPExemptionName
+		dataType: string
+		lineageTag: a8e86d7d-5f15-4bfa-b2ce-4c0a6c51ab42
+		summarizeBy: none
+		sourceColumn: $CMPExemptionName
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPTaxissuedPerson
+		dataType: string
+		lineageTag: 07e457d2-96b3-4f11-a1e4-9961f1c0a9c7
+		summarizeBy: none
+		sourceColumn: $CMPTaxissuedPerson
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPTaxissuedDesignation
+		dataType: string
+		lineageTag: 4b8ebeeb-c763-4e7f-a9ca-7f33751cc8ac
+		summarizeBy: none
+		sourceColumn: $CMPTaxissuedDesignation
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPLumpSumPermissionNo
+		dataType: string
+		lineageTag: ee91e3aa-a5d9-499a-b471-d2aa8e0adf49
+		summarizeBy: none
+		sourceColumn: $CMPLumpSumPermissionNo
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPProfTaxEnrolNo
+		dataType: string
+		lineageTag: 483eee49-1f23-4fce-8d55-1e853b5e4724
+		summarizeBy: none
+		sourceColumn: $CMPProfTaxEnrolNo
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPProfTaxRegnNo
+		dataType: string
+		lineageTag: 2bddb040-f608-4e1b-9c9b-84774f1e5282
+		summarizeBy: none
+		sourceColumn: $CMPProfTaxRegnNo
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPExemptCertificateNo
+		dataType: string
+		lineageTag: 24066d41-f336-4f89-b0df-b1de0fbfc026
+		summarizeBy: none
+		sourceColumn: $CMPExemptCertificateNo
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CorporateIdentityNo
+		dataType: string
+		lineageTag: c94d0b3e-576b-4258-9616-f53b63af8e32
+		summarizeBy: none
+		sourceColumn: $CorporateIdentityNo
+
+		annotation SummarizationSetBy = Automatic
+
+	column $BranchName
+		dataType: string
+		lineageTag: d7279b4e-b95d-4b4d-8158-960b19704086
+		summarizeBy: none
+		sourceColumn: $BranchName
+
+		annotation SummarizationSetBy = Automatic
+
+	column $InterstateOldSTNumber
+		dataType: string
+		lineageTag: ef70a742-b9c1-4011-b8f1-90400743edc6
+		summarizeBy: none
+		sourceColumn: $InterstateOldSTNumber
+
+		annotation SummarizationSetBy = Automatic
+
+	column $VATOldTINNumber
+		dataType: string
+		lineageTag: 06ce79d6-64a7-4246-b4b2-ff8432bb5a51
+		summarizeBy: none
+		sourceColumn: $VATOldTINNumber
+
+		annotation SummarizationSetBy = Automatic
+
+	column $VATDistrictName
+		dataType: string
+		lineageTag: a4a27b84-ad94-4678-b423-5396888526c0
+		summarizeBy: none
+		sourceColumn: $VATDistrictName
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPEcoActivityCode
+		dataType: string
+		lineageTag: 891e4857-10a6-4d8d-b0d0-19ca0ccec3fe
+		summarizeBy: none
+		sourceColumn: $CMPEcoActivityCode
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPAuthPersnName
+		dataType: string
+		lineageTag: 7e15aa3c-d308-4272-9606-1698d1852076
+		summarizeBy: none
+		sourceColumn: $CMPAuthPersnName
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPTaxAuthPerson
+		dataType: string
+		lineageTag: 1297c738-c56d-408f-bcc9-3f659388b2a4
+		summarizeBy: none
+		sourceColumn: $CMPTaxAuthPerson
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPAuthPersnDesgnation
+		dataType: string
+		lineageTag: 7f565f66-25ea-4230-a595-498238542afa
+		summarizeBy: none
+		sourceColumn: $CMPAuthPersnDesgnation
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPTaxAuthDesignation
+		dataType: string
+		lineageTag: 7b94cd1a-785c-4e6d-a0fa-2440dc40117d
+		summarizeBy: none
+		sourceColumn: $CMPTaxAuthDesignation
+
+		annotation SummarizationSetBy = Automatic
+
+	column $GSTApplicability
+		dataType: string
+		lineageTag: 62ffc6e7-8ca0-4544-a92b-d404ea33f252
+		summarizeBy: none
+		sourceColumn: $GSTApplicability
+
+		annotation SummarizationSetBy = Automatic
+
+	column $HSNApplicability
+		dataType: string
+		lineageTag: ad5b881d-4b1d-4211-b383-fa10a1a1c5fb
+		summarizeBy: none
+		sourceColumn: $HSNApplicability
+
+		annotation SummarizationSetBy = Automatic
+
+	column $eWayBillApplicableType
+		dataType: string
+		lineageTag: 316c3310-9363-4e80-9101-90ac4c3851c9
+		summarizeBy: none
+		sourceColumn: $eWayBillApplicableType
+
+		annotation SummarizationSetBy = Automatic
+
+	column $GSTDownloadApplFor
+		dataType: string
+		lineageTag: 20eecd8e-a6c2-48e5-b337-b6b82738ccba
+		summarizeBy: none
+		sourceColumn: $GSTDownloadApplFor
+
+		annotation SummarizationSetBy = Automatic
+
+	column $GSTDownloadApplReg
+		dataType: string
+		lineageTag: 94186df9-e4f7-4b14-9376-23e06448358d
+		summarizeBy: none
+		sourceColumn: $GSTDownloadApplReg
+
+		annotation SummarizationSetBy = Automatic
+
+	column $GSTDownloadNotApplReg
+		dataType: string
+		lineageTag: 20a53144-2feb-448b-ae81-bc2fc3ce7479
+		summarizeBy: none
+		sourceColumn: $GSTDownloadNotApplReg
+
+		annotation SummarizationSetBy = Automatic
+
+	column $VNSName
+		dataType: string
+		lineageTag: 5b16b57b-390e-4859-bbc8-c71541986886
+		summarizeBy: none
+		sourceColumn: $VNSName
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ExternFiles
+		dataType: string
+		lineageTag: f5848cc8-59f7-4f55-bed0-4def3120d17c
+		summarizeBy: none
+		sourceColumn: $ExternFiles
+
+		annotation SummarizationSetBy = Automatic
+
+	column $LastWhatsAppTemplate
+		dataType: string
+		lineageTag: 64ab8412-5400-4476-a102-33c8031a3c36
+		summarizeBy: none
+		sourceColumn: $LastWhatsAppTemplate
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ResetManualReconStatus
+		dataType: string
+		lineageTag: f9ab4745-dce2-4f3a-98e7-30ba92db8f40
+		summarizeBy: none
+		sourceColumn: $ResetManualReconStatus
+
+		annotation SummarizationSetBy = Automatic
+
+	column $SendEmptyProdDescToEInv
+		dataType: string
+		lineageTag: 39ef0a6f-077f-4e17-8e15-bcb4114690d9
+		summarizeBy: none
+		sourceColumn: $SendEmptyProdDescToEInv
+
+		annotation SummarizationSetBy = Automatic
+
+	column $AutoSetOffAdvRcptPymtPrev
+		dataType: string
+		lineageTag: ac20d618-9ab4-4427-ae41-5ef5ed43b299
+		summarizeBy: none
+		sourceColumn: $AutoSetOffAdvRcptPymtPrev
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsGSTeInvInclEWayBill
+		dataType: string
+		lineageTag: ce48e06c-7a91-4c45-b1fc-098e56e2cb48
+		summarizeBy: none
+		sourceColumn: $IsGSTeInvInclEWayBill
+
+		annotation SummarizationSetBy = Automatic
+
+	column $PrinteWayBill
+		dataType: string
+		lineageTag: 5d31b1e6-3d08-4779-93d9-049d35051bc5
+		summarizeBy: none
+		sourceColumn: $PrinteWayBill
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsGSTR1DownloadExcluded
+		dataType: string
+		lineageTag: b05053f2-c973-48e6-ad70-4c1e35d51675
+		summarizeBy: none
+		sourceColumn: $IsGSTR1DownloadExcluded
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsGSTR2ADownloadExcluded
+		dataType: string
+		lineageTag: c44c5e4c-07e1-4f01-b35f-c107fbc809de
+		summarizeBy: none
+		sourceColumn: $IsGSTR2ADownloadExcluded
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsGSTR2BDownloadExcluded
+		dataType: string
+		lineageTag: 56f6716f-859a-490d-ae2a-dea2babeefb0
+		summarizeBy: none
+		sourceColumn: $IsGSTR2BDownloadExcluded
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsGSTR3BDownloadExcluded
+		dataType: string
+		lineageTag: d9bf6d06-540f-482a-8d01-e722bef16749
+		summarizeBy: none
+		sourceColumn: $IsGSTR3BDownloadExcluded
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsGSTRecompQryInRpt
+		dataType: string
+		lineageTag: 49e7db57-4bc2-4cd3-974b-b7788d032c5e
+		summarizeBy: none
+		sourceColumn: $IsGSTRecompQryInRpt
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsPaymentRequestOn
+		dataType: string
+		lineageTag: ffc611de-f428-4f32-bee5-7bf969cae2bc
+		summarizeBy: none
+		sourceColumn: $IsPaymentRequestOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ExchangeActivityMasterId
+		dataType: string
+		lineageTag: 6f7121c3-02c4-4a4c-961d-021717855985
+		summarizeBy: none
+		sourceColumn: $ExchangeActivityMasterId
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ExchangeActivityAlterId
+		dataType: string
+		lineageTag: 4d767262-5424-4383-9e43-4edc4b40f544
+		summarizeBy: none
+		sourceColumn: $ExchangeActivityAlterId
+
+		annotation SummarizationSetBy = Automatic
+
+	column $RetTransMasterId
+		dataType: string
+		lineageTag: c5e1b0e1-e2de-4a41-8963-4f4afc08662a
+		summarizeBy: none
+		sourceColumn: $RetTransMasterId
+
+		annotation SummarizationSetBy = Automatic
+
+	column $RetTransAlterId
+		dataType: string
+		lineageTag: 99f433e0-01a2-41bc-9cfb-e424dabf3dc3
+		summarizeBy: none
+		sourceColumn: $RetTransAlterId
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CmpVchStatId
+		dataType: string
+		lineageTag: 10e2e3b6-8c9f-4638-ac9f-c3d79ce55025
+		summarizeBy: none
+		sourceColumn: $CmpVchStatId
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CmpRetStatId
+		dataType: string
+		lineageTag: 5528e2b3-504d-414b-8dc8-de0e31ccf79b
+		summarizeBy: none
+		sourceColumn: $CmpRetStatId
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPAllowedExemptionAmt
+		dataType: string
+		lineageTag: 1eb19fbb-e525-4513-8c30-cd7ddb2dca81
+		summarizeBy: none
+		sourceColumn: $CMPAllowedExemptionAmt
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CMPExemptionExtentAmt
+		dataType: string
+		lineageTag: 546daca2-3a50-4b37-a62f-90e8db487f1c
+		summarizeBy: none
+		sourceColumn: $CMPExemptionExtentAmt
+
+		annotation SummarizationSetBy = Automatic
+
+	column $eWayBillInterStateThreshold
+		dataType: string
+		lineageTag: 886db0db-8bac-4a2e-b8c0-74df19ede3d7
+		summarizeBy: none
+		sourceColumn: $eWayBillInterStateThreshold
+
+		annotation SummarizationSetBy = Automatic
+
+	partition companies = m
+		mode: import
+		queryGroup: TallyData
+		source =
+				let
+				    Source = GetTallyODBCSchema(PortNumber),
+				    AC_Companies_Table = Source{[Name="AC_Companies",Kind="Table"]}[Data]
+				in
+				    AC_Companies_Table
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,133 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 1170,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 280,
+            "y": 0
+          },
+          "nodeIndex": "ledgers",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 21
+          },
+          "nodeIndex": "groups",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 848,
+            "y": 10.5
+          },
+          "nodeIndex": "vouchers",
+          "nodeLineageTag": "caefe072-934d-4f71-a9c5-48307bdf0932",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 7
+        },
+        {
+          "location": {
+            "x": 1132,
+            "y": 10.5
+          },
+          "nodeIndex": "voucher_types",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 564,
+            "y": 10.5
+          },
+          "nodeIndex": "companies",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 6
+        },
+        {
+          "location": {
+            "x": 1700,
+            "y": 10.5
+          },
+          "nodeIndex": "date_dim",
+          "nodeLineageTag": "79e07012-ee80-43a1-9868-734672120c6b",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 1416,
+            "y": 84.5
+          },
+          "nodeIndex": "ledger_entries",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 8
+        },
+        {
+          "location": {
+            "x": 1984,
+            "y": 60.5
+          },
+          "nodeIndex": "bill_allocations",
+          "nodeLineageTag": "02368664-3209-47d5-a692-30d5c99aeee3",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 2268,
+            "y": 60.5
+          },
+          "nodeIndex": "_measures",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

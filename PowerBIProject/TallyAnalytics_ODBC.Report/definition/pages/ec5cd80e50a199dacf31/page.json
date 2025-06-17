@@ -1,0 +1,8 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
+  "name": "ec5cd80e50a199dacf31",
+  "displayName": "Trial Balance",
+  "displayOption": "FitToPage",
+  "height": 720,
+  "width": 1280
+}

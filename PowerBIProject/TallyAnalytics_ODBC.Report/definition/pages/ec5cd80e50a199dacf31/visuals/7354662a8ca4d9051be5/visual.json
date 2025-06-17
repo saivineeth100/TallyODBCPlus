@@ -1,0 +1,132 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "name": "7354662a8ca4d9051be5",
+  "position": {
+    "x": 0,
+    "y": 16,
+    "z": 0,
+    "height": 704,
+    "width": 688,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "pivotTable",
+    "query": {
+      "queryState": {
+        "Columns": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "companies"
+                    }
+                  },
+                  "Property": "$_DBName"
+                }
+              },
+              "queryRef": "companies.$_DBName",
+              "nativeQueryRef": "$_DBName",
+              "active": true
+            }
+          ]
+        },
+        "Rows": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ledgers"
+                    }
+                  },
+                  "Property": "$Name"
+                }
+              },
+              "queryRef": "ledgers.$Name",
+              "nativeQueryRef": "$Name",
+              "active": true
+            }
+          ]
+        },
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "ledger_entries"
+                        }
+                      },
+                      "Property": "$Amount"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(ledger_entries.$Amount)",
+              "nativeQueryRef": "Sum of $Amount"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "8c90912d403c0cd6e2c0",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "ledgers"
+              }
+            },
+            "Property": "$Name"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "826169f6efb2b34382cf",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "ledger_entries"
+                  }
+                },
+                "Property": "$Amount"
+              }
+            },
+            "Function": 0
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "340e732d019fa90ef640",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "companies"
+              }
+            },
+            "Property": "$_DBName"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
+  }
+}

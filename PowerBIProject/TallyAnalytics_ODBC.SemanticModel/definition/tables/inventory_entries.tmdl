@@ -1,0 +1,97 @@
+table inventory_entries
+	lineageTag: 3d75d92e-7e2f-406e-87e9-dfabea0d3b4d
+
+	column $StockItemName
+		dataType: string
+		lineageTag: b2edc5c8-1f7a-46ab-ac87-175fe10a4905
+		summarizeBy: none
+		sourceColumn: $StockItemName
+
+		annotation SummarizationSetBy = Automatic
+
+	column $Amount
+		dataType: string
+		lineageTag: 8a44a23d-079b-48ca-9d81-06fd77a174e2
+		summarizeBy: none
+		sourceColumn: $Amount
+
+		annotation SummarizationSetBy = Automatic
+
+	column $Rate
+		dataType: string
+		lineageTag: ce640191-a79a-49a4-b49d-c0c7cc98bbbe
+		summarizeBy: none
+		sourceColumn: $Rate
+
+		annotation SummarizationSetBy = Automatic
+
+	column $BilledQty
+		dataType: string
+		lineageTag: 27a80543-72da-4d99-a7ba-144b345a0293
+		summarizeBy: none
+		sourceColumn: $BilledQty
+
+		annotation SummarizationSetBy = Automatic
+
+	column $BilledRate
+		dataType: string
+		lineageTag: 26ab2829-3c1e-49de-b683-831b5e01105f
+		summarizeBy: none
+		sourceColumn: $BilledRate
+
+		annotation SummarizationSetBy = Automatic
+
+	column $BatchName
+		dataType: string
+		lineageTag: 084050ee-a341-4ef6-b612-bc934ebcbce0
+		summarizeBy: none
+		sourceColumn: $BatchName
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ActualQty
+		dataType: string
+		lineageTag: c06eb5f0-6730-44a0-ae24-43ac20d40d4a
+		summarizeBy: none
+		sourceColumn: $ActualQty
+
+		annotation SummarizationSetBy = Automatic
+
+	column $ActualRate
+		dataType: string
+		lineageTag: 9cfa6132-8f8d-4776-ae80-411f258be8b8
+		summarizeBy: none
+		sourceColumn: $ActualRate
+
+		annotation SummarizationSetBy = Automatic
+
+	column $VoucherGUID
+		dataType: string
+		lineageTag: cf328b5f-a5bb-45d6-8c64-2610451c5203
+		summarizeBy: none
+		sourceColumn: $VoucherGUID
+
+		annotation SummarizationSetBy = Automatic
+
+	column $StockItemGUID
+		dataType: string
+		lineageTag: 9759774d-fb21-4ae4-b008-9d3e4f3c03cc
+		summarizeBy: none
+		sourceColumn: $StockItemGUID
+
+		annotation SummarizationSetBy = Automatic
+
+	partition inventory_entries = m
+		mode: import
+		queryGroup: TallyData\transactions
+		source =
+				let
+				    Source = GetTallyODBCSchema(PortNumber),
+				    AC_VoucherAllInventoryEntries_Table = Source{[Name="AC_VoucherAllInventoryEntries",Kind="Table"]}[Data]
+				in
+				    AC_VoucherAllInventoryEntries_Table
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

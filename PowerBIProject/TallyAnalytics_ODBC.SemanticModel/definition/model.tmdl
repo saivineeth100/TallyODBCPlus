@@ -1,0 +1,59 @@
+model Model
+	culture: en-IN
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-IN
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+queryGroup GetTallyODBCSchema
+
+	annotation PBI_QueryGroupOrder = 0
+
+queryGroup Params
+
+	annotation PBI_QueryGroupOrder = 1
+
+queryGroup TallyData
+
+	annotation PBI_QueryGroupOrder = 2
+
+queryGroup TallyData\Masters
+
+	annotation PBI_QueryGroupOrder = 0
+
+queryGroup TallyData\transactions
+
+	annotation PBI_QueryGroupOrder = 1
+
+annotation PBI_QueryOrder = ["GetTallySchema","GetTallyODBCSchema","PortNumber","voucher_types","ledgers","groups","bill_allocations","vouchers","companies","ledger_entries","date_dim","inventory_entries"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBIDesktopVersion = 2.144.679.0 (25.06)+ef40146207b86a826d1c72a7727a743ee37450e9
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table ledgers
+ref table groups
+ref table vouchers
+ref table companies
+ref table voucher_types
+ref table ledger_entries
+ref table date_dim
+ref table DateTableTemplate_8333ce2f-364e-4368-8636-46c595446005
+ref table LocalDateTable_f250bf25-b96d-4c8c-b3c0-abaad3cb2b4b
+ref table LocalDateTable_0a9b3d80-4edb-4495-9cdd-ac078a458c8c
+ref table LocalDateTable_a3186f7c-db9f-497f-8ad1-27a20123fa10
+ref table LocalDateTable_ef4bc49c-7d45-4dee-b7ce-0710c7036e57
+ref table LocalDateTable_3459683b-978a-412b-b5ac-dc9d11b3fe60
+ref table LocalDateTable_883cae89-83a9-45d8-84a6-461315eefc26
+ref table LocalDateTable_d6bd2ace-0c91-444f-97eb-56e8c7920279
+ref table LocalDateTable_bf1c83bb-1b1a-4050-9e06-f6277ea6a96f
+ref table LocalDateTable_90606406-6e48-49d6-a48e-15b82c206885
+ref table bill_allocations
+ref table _measures
+ref table inventory_entries
+
+ref cultureInfo en-IN
+

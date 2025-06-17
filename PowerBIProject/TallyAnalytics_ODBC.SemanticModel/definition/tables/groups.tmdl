@@ -1,0 +1,161 @@
+table groups
+	lineageTag: f72eacdb-753d-4f63-a9b2-856216e0890d
+
+	column $GUID
+		dataType: string
+		lineageTag: 96c1f305-ff82-4075-bdca-960396b4da8d
+		summarizeBy: none
+		sourceColumn: $GUID
+
+		annotation SummarizationSetBy = Automatic
+
+	column $Parent
+		dataType: string
+		lineageTag: d233a752-cb08-4371-b4da-5efc07962880
+		summarizeBy: none
+		sourceColumn: $Parent
+
+		annotation SummarizationSetBy = Automatic
+
+	column $BasicGroupIsCalculable
+		dataType: string
+		lineageTag: ca74c3fb-c801-42a7-8d79-27639c13fd63
+		summarizeBy: none
+		sourceColumn: $BasicGroupIsCalculable
+
+		annotation SummarizationSetBy = Automatic
+
+	column $AddlAllocType
+		dataType: string
+		lineageTag: 16252792-da46-4c2e-9115-572717c73335
+		summarizeBy: none
+		sourceColumn: $AddlAllocType
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsBillWiseOn
+		dataType: string
+		lineageTag: 34120e09-c4e7-4043-9adb-a1afe32a6864
+		summarizeBy: none
+		sourceColumn: $IsBillWiseOn
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsAddable
+		dataType: string
+		lineageTag: e2c3d7ab-b586-48ae-8ed6-8edcc1f10f26
+		summarizeBy: none
+		sourceColumn: $IsAddable
+
+		annotation SummarizationSetBy = Automatic
+
+	column $AsOriginal
+		dataType: string
+		lineageTag: d55bec0f-2c6d-4197-bc4c-58bcfbe65011
+		summarizeBy: none
+		sourceColumn: $AsOriginal
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsSubLedger
+		dataType: string
+		lineageTag: 5ea2e2df-3b38-4d84-b066-a501c36be5ba
+		summarizeBy: none
+		sourceColumn: $IsSubLedger
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsRevenue
+		dataType: string
+		lineageTag: 879a1f51-28df-4010-a495-4212aa59ab6a
+		summarizeBy: none
+		sourceColumn: $IsRevenue
+
+		annotation SummarizationSetBy = Automatic
+
+	column $AffectsGrossProfit
+		dataType: string
+		lineageTag: a714df8f-011a-47f0-9ef5-c70e7ffd10b9
+		summarizeBy: none
+		sourceColumn: $AffectsGrossProfit
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsDeemedPositive
+		dataType: string
+		lineageTag: 6f427512-2b9f-4ccf-9eeb-7f85d00cc669
+		summarizeBy: none
+		sourceColumn: $IsDeemedPositive
+
+		annotation SummarizationSetBy = Automatic
+
+	column $TrackNegativeBalances
+		dataType: string
+		lineageTag: 33e089d7-70ae-4a60-afe7-fa7006a85bea
+		summarizeBy: none
+		sourceColumn: $TrackNegativeBalances
+
+		annotation SummarizationSetBy = Automatic
+
+	column $IsCondensed
+		dataType: string
+		lineageTag: f1f7a1e9-1c6d-4653-8598-cf7b05be790a
+		summarizeBy: none
+		sourceColumn: $IsCondensed
+
+		annotation SummarizationSetBy = Automatic
+
+	column $SortPosition
+		dataType: string
+		lineageTag: 1c954f72-73bb-4a67-9288-32d7319c64ee
+		summarizeBy: none
+		sourceColumn: $SortPosition
+
+		annotation SummarizationSetBy = Automatic
+
+	column $AlterID
+		dataType: string
+		lineageTag: 685f642f-58b4-4534-86e8-d3c499737fb2
+		summarizeBy: none
+		sourceColumn: $AlterID
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CompanyName
+		dataType: string
+		lineageTag: 88f90afd-56d6-489d-99c7-e9016ac1d3b2
+		summarizeBy: none
+		sourceColumn: $CompanyName
+
+		annotation SummarizationSetBy = Automatic
+
+	column $CompanyGUID
+		dataType: string
+		lineageTag: 412ae8fc-7760-4bea-a20d-1e4a453009a2
+		summarizeBy: none
+		sourceColumn: $CompanyGUID
+
+		annotation SummarizationSetBy = Automatic
+
+	column $RemoteAltGUID
+		dataType: string
+		lineageTag: 81767bbc-2946-44e6-8696-2baad91c0af0
+		summarizeBy: none
+		sourceColumn: $RemoteAltGUID
+
+		annotation SummarizationSetBy = Automatic
+
+	partition groups = m
+		mode: import
+		queryGroup: TallyData\Masters
+		source =
+				let
+				    Source = GetTallyODBCSchema(PortNumber),
+				    AC_Groups_Table = Source{[Name="AC_Groups",Kind="Table"]}[Data]
+				in
+				    AC_Groups_Table
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

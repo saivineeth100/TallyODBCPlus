@@ -1,0 +1,57 @@
+table bill_allocations
+	lineageTag: 02368664-3209-47d5-a692-30d5c99aeee3
+
+	column $BillId
+		dataType: string
+		lineageTag: f67b53c6-0be8-4ee3-848a-2a616ab9ce30
+		summarizeBy: none
+		sourceColumn: $BillId
+
+		annotation SummarizationSetBy = Automatic
+
+	column $Name
+		dataType: string
+		lineageTag: c148d7f7-184b-44f6-984e-b7ceae4d29c9
+		summarizeBy: none
+		sourceColumn: $Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column $BillType
+		dataType: string
+		lineageTag: b4048ada-4db0-4f75-bc7b-7ac3f8279cab
+		summarizeBy: none
+		sourceColumn: $BillType
+
+		annotation SummarizationSetBy = Automatic
+
+	column $Amount
+		dataType: string
+		lineageTag: b67978ab-ffcc-4d13-a2e9-44e0a86f2800
+		summarizeBy: none
+		sourceColumn: $Amount
+
+		annotation SummarizationSetBy = Automatic
+
+	column $BillCreditPeriod
+		dataType: string
+		lineageTag: 5e405390-94f1-4d31-9b0a-eae81e7c1150
+		summarizeBy: none
+		sourceColumn: $BillCreditPeriod
+
+		annotation SummarizationSetBy = Automatic
+
+	partition bill_allocations = m
+		mode: import
+		queryGroup: TallyData\transactions
+		source =
+				let
+				    Source = GetTallyODBCSchema(PortNumber),
+				    AC_VoucherLedgerBillAllocations_Table = Source{[Name="AC_VoucherLedgerBillAllocations",Kind="Table"]}[Data]
+				in
+				    AC_VoucherLedgerBillAllocations_Table
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

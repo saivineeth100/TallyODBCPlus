@@ -1,0 +1,48 @@
+expression GetTallyODBCSchema = ```
+		let
+		    Source = (PortNumber as text) => let
+		    
+		    Source = Odbc.DataSource(Text.Format("dsn=TallyODBC64_#{0}",{PortNumber}), [HierarchicalNavigation=true]),
+		    AddedRowCount = Table.AddColumn(Source, "Custom", each Table.RowCount([Data])),
+		    FilteredTableWithoutRows = Table.SelectRows(AddedRowCount, each ([Custom] = 1)),
+		    SelectDb = FilteredTableWithoutRows{0}[Data],
+		    Schema = Table.SelectRows( SelectDb{0}[Data],each Text.StartsWith([Name], "AC_" )  and [Name] <> "AC_BaseODBCTable" )
+		in
+		    Schema
+		in
+		    Source
+		```
+	mAttributes: [ FunctionQueryBinding = "{""exemplarFormulaName"":""GetTallySchema""}" ]
+	lineageTag: ea87a114-97e9-4064-933b-b0b0c1f7f800
+	queryGroup: GetTallyODBCSchema
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Function
+
+expression PortNumber = "9000" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: ad42375f-c11b-4aee-a418-71a748f5403a
+	queryGroup: Params
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Text
+
+expression GetTallySchema = ```
+		let
+		    
+		    Source = Odbc.DataSource(Text.Format("dsn=TallyODBC64_#{0}",{PortNumber}), [HierarchicalNavigation=true]),
+		    AddedRowCount = Table.AddColumn(Source, "Custom", each Table.RowCount([Data])),
+		    FilteredTableWithoutRows = Table.SelectRows(AddedRowCount, each ([Custom] = 1)),
+		    SelectDb = FilteredTableWithoutRows{0}[Data],
+		    Schema = Table.SelectRows( SelectDb{0}[Data],each Text.StartsWith([Name], "AC_" )  and [Name] <> "AC_BaseODBCTable" )
+		in
+		    Schema
+		```
+	lineageTag: 71786ab2-2497-49a1-8eb3-cd24261b1b25
+	queryGroup: GetTallyODBCSchema
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

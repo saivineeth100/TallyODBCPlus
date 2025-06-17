@@ -1,0 +1,59 @@
+table ledger_entries
+	lineageTag: d157033a-b745-4d77-bbc6-2d10ea302b0b
+
+	column $LedgerName
+		dataType: string
+		lineageTag: 0c4bf3e2-203a-4ad5-800c-415e1d9a1bda
+		summarizeBy: none
+		sourceColumn: $LedgerName
+
+		annotation SummarizationSetBy = Automatic
+
+	column $Amount
+		dataType: decimal
+		formatString: #,0.00
+		lineageTag: 9b1360d5-0280-4838-a1f3-81b71294efaa
+		summarizeBy: none
+		sourceColumn: $Amount
+
+		annotation SummarizationSetBy = User
+
+	column $AdAllocType
+		dataType: string
+		lineageTag: f2e21180-0df8-46a0-a6af-04ec29d45cc8
+		summarizeBy: none
+		sourceColumn: $AdAllocType
+
+		annotation SummarizationSetBy = Automatic
+
+	column $VoucherGUID
+		dataType: string
+		lineageTag: ba1a912e-dc76-4efc-b203-9b6c9915a4d8
+		summarizeBy: none
+		sourceColumn: $VoucherGUID
+
+		annotation SummarizationSetBy = Automatic
+
+	column $LedgerGUID
+		dataType: string
+		lineageTag: 06826789-0645-46c3-93cb-d79707f91a21
+		summarizeBy: none
+		sourceColumn: $LedgerGUID
+
+		annotation SummarizationSetBy = Automatic
+
+	partition ledger_entries = m
+		mode: import
+		queryGroup: TallyData\transactions
+		source =
+				let
+				    Source = GetTallyODBCSchema(PortNumber),
+				    AC_VoucherAllLedgerEntries_Table = Source{[Name="AC_VoucherAllLedgerEntries",Kind="Table"]}[Data],
+				    #"Changed Type" = Table.TransformColumnTypes(AC_VoucherAllLedgerEntries_Table,{{"$LedgerGUID", type text}, {"$VoucherGUID", type text}, {"$Amount", Currency.Type}, {"$AdAllocType", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

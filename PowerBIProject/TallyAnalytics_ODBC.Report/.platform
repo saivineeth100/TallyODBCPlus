@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "TallyAnalytics_ODBC"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "7c709379-e3c4-4681-a926-5cb5a2c1869f"
+  }
+}
