@@ -22,12 +22,14 @@ this TDL exposes ODBC Tables with prefix AC_
 [Collection : AC_Companies]
     Type    : Company
     Is ODBC Table : Yes
-    Fetch : StartingFrom
-    Filters : IsSimpleCompanyFilter   
-
+    Fetch : StartingFrom,AC_DisableODBCPlus,AC_ODBCFromDate,AC_ODBCToDate
+    Filters : IsSimpleCompanyFilter ,IsODBCEnabled
 
 [System:Formulae]
     IsSimpleCompanyFilter : $$IsSimpleCompany:$Name
+    IsODBCEnabled : (not $AC_DisableODBCPlus) or @@IsActiveCompany
+    IsNotActiveCompany : Not @@IsActiveCompany
+    IsActiveCompany : ##SVCurrentCompany = $Name 
 
 
 [Collection : AC_BaseAllCompany]
@@ -39,17 +41,25 @@ this TDL exposes ODBC Tables with prefix AC_
     Use         :   AC_BaseAllCompany    
     Type        :   Ledger
     Compute     : Name : $Name
-    Fetch       :   *.*,Name
+    Fetch       :   *.*,Name,LedgerGUID
+
+[#Object : Ledger]
+    LedgerGUID:$GUID:Group:$Parent  
 
 [Collection : AC_Ledgers]
     Use         :   AC_BaseODBCTable
     Collection  :   AC_LedgersSrc : AC_Companies    
    ;; Compute : BalanceofParticularPeriod;;$$FromValue:"01-04-2015":$$ToValue:"30-04-2015":$Closingbalance 
 
+[#Object : Group]
+    PrimaryReserveName   : if ($IsReserved) then $ReserveName else $PrimaryReserveName:Group:$Parent
+
 [Collection : AC_GroupsSrc]
     Use         :   AC_BaseAllCompany    
     Type        :   Group
-    Fetch       :   *.*    
+    Compute     : Name : $Name
+    Fetch       :   *.* ,PrimaryReserveName,GUID,Name   
+
 
 [Collection : AC_Groups]
     Use         :   AC_BaseODBCTable
@@ -74,8 +84,8 @@ this TDL exposes ODBC Tables with prefix AC_
     Type        :   Voucher
 
     
-    PARM VAR	: SVFROMDATE	: Date	: $$Date:"01-04-2010"
-	;;PARM VAR	: SVTODATE      : Date	: $$Date:"31-03-2026"
+    PARM VAR	: SVFROMDATE	: Date	: $$Date:##AC_ODBCFrom
+	PARM VAR	: SVTODATE      : Date	: $$Date:##AC_ODBCTo
     Compute : VoucherTypeGUID : $GUID:VoucherType:$VoucherTypeName
     Fetch      :   *.* ,AllLedgerEntries,AllInventoryEntries
     
@@ -112,4 +122,115 @@ this TDL exposes ODBC Tables with prefix AC_
     Walk    :   AllInventoryEntries
     Fetch   : StockItemName,Amount,Rate,BilledQty,BilledRate,BatchName,ActualQty,ActualRate,VoucherGUID,StockItemGUID
   
+
+[#Menu: GatewayofTally]
+    Add	: Item		: Before 	: @@locQuit	: Blank
+	Add	: Indent	: Before 	: @@locQuit	: "ODBC Plus"
+    Add	: Key Item		: Before 	: @@locQuit	: Settings :P:Menu : ODBC Plus
+
+
+[Menu: ODBC Plus]
+    Indent		: "ODBC Plus"
+	Item		: Blank
+    Key Item	: Change Period	: M : Modify Variables : AC_ChangeODBCPeriod
+    Item		: Blank
+    Key Item	: Alter ODBCPlus Companies		: M : Alter : AC_CompanyList
+
+
+[Report: AC_CompanyList]
+    Title : "ODBCPlus Companies"
+   Form    : AC_CompanyList
+   Local : Collection:AC_Companies:Delete:Filters:IsODBCEnabled
+   Local : Collection:AC_Companies:Add:Filters:IsNotActiveCompany
+   Multi Objects	:AC_Companies
+   
+
+[Form: AC_CompanyList]
+    Height  : 50% Page
+	Width	: 50% Page
+   Parts   : AC_CompanyList
+
+[Part: AC_CompanyList]
+
+   Lines   :AC_CompanyListTitles, AC_CompanyList 
+   Repeat : AC_CompanyList:AC_Companies
+   Scroll			: Vertical
+	Common Border	: Yes
+
+[Line : AC_CompanyListTitles]
+    Use : AC_CompanyList
+    Local	: Field		: Default		: Delete	: Storage
+	Local	: Field		: Default		: Skip		: Yes
+    Local : Field : AC_CompanyName: Info	: "Company Name"
+    Local : Field : AC_DisableODBCPlus: Info	: "Exclude"
+
+
+[Line: AC_CompanyList]
+   Fields   : AC_CompanyName,AC_DisableODBCPlus
+
+[Field: AC_CompanyName]
+    Use :Name Field
+    storage  : name
+   ;;Read Only	: Yes
+
+[Field: AC_DisableODBCPlus]
+    Type : Logical
+    Storage  : AC_DisableODBCPlus
+    Width       :10
+    Max         :10
+    Style       : Normal Bold
+    Table       : YesNoTable
+    Show Table  : On Error
+
+[System: UDF]
+    AC_DisableODBCPlus : Logical : 30000
+
+
+[Variable : AC_ODBCFrom]
+
+Type       : Date
+
+Persistent : Yes
+
+[Variable : AC_ODBCTo]
+
+Type       : Date
+
+Persistent : Yes
+[System : Variable]
+    AC_ODBCFrom:Date
+    AC_ODBCTo:Date
+
+[Report: AC_ChangeODBCPeriod]
+    Use : Modify Variables
+    Local   : Field: MV Title         : Info           : $$LocaleString:"Change ODBC Period"
+    Local   : Part  : Modify Variables  : Lines         : Plain SV FromDate, Plain SV ToDate, AC_ODBCFrom,AC_ODBCTo
+
+   ;; Local   : Field : AC_ODBCFrom  : Set as        : #SVFromDate
+    ;;Local   : Field : AC_ODBCTo    : Set as        : #SVToDate
+
+    Local   : Field :   Plain SV FromDate  : Skip          : Yes
+    Local   : Field : Plain SV ToDate   : Skip          : Yes
+    Local   : Line  :  Plain SV FromDate : Invisible : Yes
+    Local   : Line  : Plain SV ToDate  : Invisible : Yes
+    
+[Line : AC_ODBCFrom]
+    Field : Medium Prompt, AC_ODBCFrom  
+	Local : Field : Medium Prompt : Info : @@DateFromFormat
+[Line : AC_ODBCTo]
+    Field : Medium Prompt, AC_ODBCTo
+	Local : Field : Medium Prompt : Info : @@DateToFormat
+
+[Field : AC_ODBCFrom]
+    Use         : Short Date Field
+	Set as		:if $$IsEmpty:##AC_ODBCFrom then  $$MonthStart:#SVCurrentDate else ##AC_ODBCFrom
+	Modifies    : AC_ODBCFrom	: Yes
+
+[Field : AC_ODBCTo]
+    Use         : Short Date Field
+	Set as		: if $$IsEmpty:##AC_ODBCTo then $$MonthEnd:#SVCurrentDate Else ##AC_ODBCTo
+	Modifies    : AC_ODBCTo	: Yes
+	Format      : Short Date, End:#AC_ODBCTo
+	Align		: Left
+	Validate    : $$IsEmpty:$$Value OR $$Value >= #AC_ODBCTo
 
